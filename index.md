@@ -8,6 +8,11 @@ layout: default
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/MYvxvO47qelwxm" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/openrtm/170420-75274184" title="170420 東工大授業「ロボット技術」資料" target="_blank">170420 東工大授業「ロボット技術」資料</a> </strong> from <strong><a href="//www.slideshare.net/openrtm" target="_blank">openrtm</a></strong> </div>
 
+## 授業中課題
+
+ここに、授業中に出題した課題の回答を掲載します。
+
+
 ## レポート課題
 
 ### 1. ロボット制御に必要な以下のプログラムを示せ（40点）
