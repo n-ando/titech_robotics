@@ -42,7 +42,7 @@ for pos in path:
   print invkinem(link, pos)
 ```
 
-プログラミングには (paiza.io)[https://paiza.io/ja/] を利用してもよい。
+プログラミングには [paiza.io](https://paiza.io/ja/) を利用してもよい。
 paiza.ioはアカウント登録すると、ブラウザ上で様々なプログラミング言語を利用してプログラムの記述・実行ができるサイト。
 
 ### 2.ミドルウエアを利用したサンプルプログラムを示せ
