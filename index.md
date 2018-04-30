@@ -30,8 +30,7 @@ y_1 & = & l_1 \sin\theta_1
 $$
 -->
 
-<img src="https://latex.codecogs.com/gif.latex?x_1&space;=&space;l_1\cos\theta_1">
-<br>
+<img src="https://latex.codecogs.com/gif.latex?x_1&space;=&space;l_1\cos\theta_1"><br>
 <img src="https://latex.codecogs.com/gif.latex?x_2&space;=&space;l_1\sin\theta_2">
 
 点P1からみた点P2の座標 <img src="https://latex.codecogs.com/gif.latex?(x_2,&space;y_2)"> は、
@@ -42,8 +41,7 @@ x_2 & = & l_2 \times \cos(\theta_1 + \theta_2) \\
 y_2 & = & l_2 \times \sin(\theta_1 + \theta_2)
 \end{eqnarray}
 $$-->
-<img src="https://latex.codecogs.com/gif.latex?x_2&space;&&space;=&space;&&space;l_2&space;\cos(\theta_1&space;&plus;&space;\theta_2)">
-<br>
+<img src="https://latex.codecogs.com/gif.latex?x_2&space;&&space;=&space;&&space;l_2&space;\cos(\theta_1&space;&plus;&space;\theta_2)"><br>
 <img src="https://latex.codecogs.com/gif.latex?x_2&space;&&space;=&space;&&space;l_2&space;\sin(\theta_1&space;&plus;&space;\theta_2)">
 
 であり、最終的に (x, y) は、
@@ -56,8 +54,7 @@ y = l_1\sin\theta_1 + l_2\sin(\theta_1 + \theta_2)
 \end{eqnarray}
 $$
 -->
-<img src="https://latex.codecogs.com/gif.latex?x&space;=&space;l_1\cos\theta_1&space;&plus;&space;l_2\cos(\theta_1&space;&plus;&space;\theta_2)">
-<br>
+<img src="https://latex.codecogs.com/gif.latex?x&space;=&space;l_1\cos\theta_1&space;&plus;&space;l_2\cos(\theta_1&space;&plus;&space;\theta_2)"><br>
 <img src="https://latex.codecogs.com/gif.latex?y&space;=&space;l_1\sin\theta_1&space;&plus;&space;l_2\sin(\theta_1&space;&plus;&space;\theta_2)">
 
 
