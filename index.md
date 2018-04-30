@@ -228,6 +228,42 @@ for pos in path:
 
 （注）この課題では、Web上から適切なプログラムを取得し、その内容を理解しているかどうかを見ます。1行ごとに何をしているか理解し、適切なコメントを付記しているかどうかで理解度を採点します。
 
+### 解答
+
+#### a)
+* [参考ページ](http://hmatsudaiac.wixsite.com/venus-robotix/define-namingformats-c-windows)
+
+ConsoleOut.cppのonExecute部分。
+
+```cpp
+RTC::ReturnCode_t ConsoleIn::onExecute(RTC::UniqueId ec_id)
+{
+  std::cout << "input number: ";
+  std::cin >> m_data.data;
+  setTimestamp(m_data);
+  m_dataOut.write();
+  return RTC::RTC_OK;
+}
+```
+
+#### b)
+* [参考ページ](http://hmatsudaiac.wixsite.com/venus-robotix/define-namingformats-c-windows)
+
+ConsoleIn.cppのonExecute部分。
+
+```cpp
+RTC::ReturnCode_t ConsoleOut::onExecute(RTC::UniqueId ec_id)
+{
+  if(m_dataIn.isNew())
+  {
+    m_dataIn.read();
+    std::cout << "received: " << m_data.data << std::endl;
+    std::cout << "sec: " << m_data.tm.sec << " nsec: " << m_data.tm.nsec << std::endl;
+  }
+  return RTC::RTC_OK;
+}
+```
+
 ### 3. 授業の感想（20点）
 授業の感想、プログラミング、ロボットミドルウェアに対しての感想を記載してください。
 
