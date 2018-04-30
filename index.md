@@ -212,7 +212,7 @@ for pos in path:
   print invkinem(link, pos)
 ```
 
-以下の paiza.io 上のプログラムでは、以上の2通りのプログラムを実行し逆運動学を求めたうえで、純運動学で検算をしています。
+以下の paiza.io 上のプログラムでは、以上の2通りのプログラムを実行し逆運動学を求めたうえで、順運動学で検算をしています。
 以下のURLにアクセスして試しに実行してみましょう。
 
 * [paiza.io上で実行](https://paiza.io/projects/mxUaGuuAqr2DLu-9vS7Rmg)
@@ -260,17 +260,17 @@ int main(int argc, char **argv) // メイン関数
   ros::Publisher chatter_pub = n.advertise<std_msgs::String>("chatter", 1000); // 送信を行うPublisherの作成
   ros::Rate loop_rate(10); 
 
-int count = 0;
-  while (ros::ok())
-  {
+  int count = 0;
+  while (ros::ok()) // メインループ
+  {
     std_msgs::String msg;
     std::stringstream ss;
-    ss << "hello world " << count;
-    msg.data = ss.str();
-    ROS_INFO("%s", msg.data.c_str());
-    chatter_pub.publish(msg);
-    ros::spinOnce();
-    ++count;
+    ss << "hello world " << count; // 送信文字列を作成
+    msg.data = ss.str(); // 送信文字列を代入
+    ROS_INFO("%s", msg.data.c_str()); 
+    chatter_pub.publish(msg); // 文字列をサブスクライバに対して送信
+    ros::spinOnce(); // するべきその他の仕事（コールバック処理等）をする。おまじない。
+    ++count;
   }
   return 0;
 }
@@ -298,20 +298,22 @@ RTC::ReturnCode_t ConsoleOut::onExecute(RTC::UniqueId ec_id) // Active状態で�
 ROSのSubscriberの場合。
 
 ```cpp
-#include "ros/ros.h"
-#include "std_msgs/String.h"
-void chatterCallback(const std_msgs::String::ConstPtr& msg)
+#include "ros/ros.h"  // ROSメインヘッダのインクルード
+#include "std_msgs/String.h" // ROSメッセージ形式 std_msgs/String のインクルード
+
+void chatterCallback(const std_msgs::String::ConstPtr& msg) // データ受信のためのコールバック関数
 {
-  ROS_INFO("I heard: [%s]", msg->data.c_str());
+  // データが受信されるとString型データが msg に代入されて受け取ることができる。
+  ROS_INFO("I heard: [%s]", msg->data.c_str());
 }
 
 int main(int argc, char **argv)
 {
-  ros::init(argc, argv, "listener");
-  ros::NodeHandle n;
-  ros::Subscriber sub = n.subscribe("chatter", 1000, chatterCallback);
-  ros::spin();
-  return 0;
+  ros::init(argc, argv, "listener"); // ROS初期化
+  ros::NodeHandle n; // このノードのハンドル
+  ros::Subscriber sub = n.subscribe("chatter", 1000, chatterCallback); // サブスクライバの作成
+  ros::spin(); // サブスクライバ等の仕事が来るまで待つループ。終了の割り込み等が入るまで永遠にブロックされる。
+  return 0;
 }
 ```
 
