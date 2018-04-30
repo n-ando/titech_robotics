@@ -21,6 +21,14 @@ layout: default
 点P2 <img src="https://latex.codecogs.com/gif.latex?(x,&space;y)"> の の値をl1, l2, θ1, θ2で表す。
 
 まず、点P1 <img src="https://latex.codecogs.com/gif.latex?(x_1,&space;y_1)">  の座標は、
+<!--
+$$
+\begin{eqnarray}
+x_1 & = & l_1 \cos\theta_1 \\
+y_1 & = & l_1 \sin\theta_1
+\end{eqnarray}
+$$
+-->
 
 <img src="https://latex.codecogs.com/gif.latex?x_1&space;=&space;l_1\cos\theta_1">
 <br>
@@ -28,15 +36,17 @@ layout: default
 
 点P1からみた点P2の座標 <img src="https://latex.codecogs.com/gif.latex?(x_2,&space;y_2)"> は、
 
+<!--$$
+\begin{eqnarray}
+x_2 & = & l_2 \times \cos(\theta_1 + \theta_2) \\
+y_2 & = & l_2 \times \sin(\theta_1 + \theta_2)
+\end{eqnarray}
+$$-->
 <img src="https://latex.codecogs.com/gif.latex?x_2&space;&&space;=&space;&&space;l_2&space;\cos(\theta_1&space;&plus;&space;\theta_2)">
 <br>
 <img src="https://latex.codecogs.com/gif.latex?x_2&space;&&space;=&space;&&space;l_2&space;\sin(\theta_1&space;&plus;&space;\theta_2)">
 
-であり、原点座標系から見た時のP2の座標は
-
-<img src="https://latex.codecogs.com/gif.latex?x&space;=&space;l_1\cos\theta_1&space;&plus;&space;l_2\cos(\theta_1&space;&plus;&space;\theta_2)">
-<br>
-<img src="https://latex.codecogs.com/gif.latex?y&space;=&space;l_1\sin\theta_1&space;&plus;&space;l_2\sin(\theta_1&space;&plus;&space;\theta_2">
+であり、最終的に (x, y) は、
 
 <!--
 $$
@@ -46,6 +56,11 @@ y = l_1\sin\theta_1 + l_2\sin(\theta_1 + \theta_2
 \end{eqnarray}
 $$
 -->
+<img src="https://latex.codecogs.com/gif.latex?x&space;=&space;l_1\cos\theta_1&space;&plus;&space;l_2\cos(\theta_1&space;&plus;&space;\theta_2)">
+<br>
+<img src="https://latex.codecogs.com/gif.latex?y&space;=&space;l_1\sin\theta_1&space;&plus;&space;l_2\sin(\theta_1&space;&plus;&space;\theta_2">
+
+
 
 ### 課題2 (逆運動学 (2自由度))
 <img src="https://github.com/n-ando/titech_robotics2018/raw/master/figs/q0_fig2.png" align="right">
@@ -53,79 +68,59 @@ $$
 右のアームの逆運動学を求めよ。
 
 ### 解答2
+図中 <img src="https://latex.codecogs.com/gif.latex?\theta_1,&space;\theta_2"> は <img src="https://latex.codecogs.com/gif.latex?\alpha,&space;\beta,&space;\phi"> を用いて以下の式で表される。
 
-<img src="https://github.com/n-ando/titech_robotics2018/raw/master/figs/q0_fig3.png" align="right">
-
-図中 θ1, θ2 は以下の式で表される。
-
+<!--
 $$
 \begin{eqnarray}
 \theta_1 & = & \frac{\pi}{2} - \alpha - \phi \\
 \theta_2 & = & \pi - \beta
 \end{eqnarray}
 $$
+-->
+<img src="https://latex.codecogs.com/gif.latex?\theta_1&space;=&space;\frac{\pi}{2}&space;-&space;\alpha&space;-&space;\phi"><br>
+<img src="https://latex.codecogs.com/gif.latex?\theta_2&space;=&space;\pi&space;-&space;\beta">
 
-図のように長さを設定する点P1の位置は、
+余弦定理と逆関数を使って、<img src="https://latex.codecogs.com/gif.latex?\cos\alpha,&space;\cos\beta,&space;\tan\phi"> の値を求めると、
 
+<!--$$
+\begin{eqnarray}
+\cos\alpha = \left\(\frac{l_1^2 + l_d^2 - l_2^2}{2l_1l_d}\right\) \\
+\cos\beta  = \left\(\frac{l_1^2 + l_2^2 - l_d^2}{2l_1l_2}\right\) \\
+\tan\phi   = \frac{y}{x}
+\end{eqnarray}
+$$-->
+<img src="https://latex.codecogs.com/gif.latex?\cos\alpha&space;=&space;\left\(\frac{l_1^2&space;&plus;&space;l_d^2&space;-&space;l_2^2}{2l_1l_d}\right\)"><br>
+<img src="https://latex.codecogs.com/gif.latex?\cos\beta&space;=&space;\left\(\frac{l_1^2&space;&plus;&space;l_2^2&space;-&space;l_d^2}{2l_1l_2}\right\)"><br>
+<img src="https://latex.codecogs.com/gif.latex?\tan\phi&space;=&space;\frac{y}{x}">
+
+逆関数を用いて以下のようにあらわすことができる。
+
+<!--
 $$
 \begin{eqnarray}
-x_1 & = & l_1 \times \cos\theta_1 \\
-y_1 & = & l_1 \times \sin\theta_1
+\alpha = \arccos\left\(\frac{l_1^2 + l_d^2 - l_2^2}{2l_1l_d}\right\) \\
+\beta  = \arcsin\left\(\frac{l_1^2 + l_2^2 - l_d^2}{2l_1l_2}\right\) \\
+\phi   = \arctan\frac{y}{x}
 \end{eqnarray}
 $$
+-->
+$$
+<img src="https://latex.codecogs.com/gif.latex?\alpha&space;=&space;\arccos\left\(\frac{l_1^2&space;&plus;&space;l_d^2&space;-&space;l_2^2}{2l_1l_d}\right\)"><br>
+<img src="https://latex.codecogs.com/gif.latex?\beta&space;=&space;\arcsin\left\(\frac{l_1^2&space;&plus;&space;l_2^2&space;-&space;l_d^2}{2l_1l_2}\right\)"><br>
+<img src="https://latex.codecogs.com/gif.latex?\phi&space;=&space;\arctan\frac{y}{x}">
 
-点P1から点P2の位置は、
-
+以上より、求める角度は、
+<!--
 $$
 \begin{eqnarray}
-x_2 & = & l_2 \times \cos(\theta_1 + \theta_2) \\
-y_2 & = & l_2 \times \sin(\theta_1 + \theta_2)
+\theta_1 = \frac{\pi}{2} - \arccos\left(\frac{l_1^2 + l_d^2 - l_2^2}{2l_1l_d}\right) - \arctan\frac{y}{x}
+\theta_2 = \pi - \arcsin\left(\frac{l_1^2 + l_2^2 - l_d^2}{2l_1l_2}\right)
 \end{eqnarray}
 $$
-であり、最終的に (x, y) は、
-$$
-\begin{eqnarray}
-x & = & l_1 \times \cos\theta_1 + l_2 \times \cos(\theta_1 + \theta_2) \\
-y & = & l_1 \times \sin\theta_1 + l_2 \times \sin(\theta_1 + \theta_2)
-\end{eqnarray}
-$$
-である。
-余弦定理と逆関数を使って値を求めます。
-
-$$
-\begin{eqnarray}
-\theta_1 & = & \frac{\pi}{2} - \alpha - \phi \\
-\theta_2 & = & \pi - \beta
-\end{eqnarray}
-$$
-
-$$
-\begin{eqnarray}
-\cos\alpha & = & \(\fram{l_1^2 + l_d^2 - l_2^2}{2l_1l_d}\) \\
-\cos\beta  & = & \(\fram{l_1^2 + l_2^2 - l_d^2}{2l_1l_2}\) \\
-\tan\phi   & = & \frac{y}{x}
-\end{eqnarray}
-$$
-
-$$
-\begin{eqnarray}
-\alpha & = & \acos\(\fram{l_1^2 + l_d^2 - l_2^2}{2l_1l_d}\) \\
-\beta  & = & \asin\(\fram{l_1^2 + l_2^2 - l_d^2}{2l_1l_2}\) \\
-\phi   & = & \atan\frac{y}{x}
-\end{eqnarray}
-$$
-
-求める角度は、
-$$
-\begin{eqnarray}
-\theta_1 & = & \frac{\pi}{2} - \acos\(\fram{l_1^2 + l_d^2 - l_2^2}{2l_1l_d}\) - \atan\frac{y}{x} \\
-\theta_2 & = & \pi - \asin\(\fram{l_1^2 + l_2^2 - l_d^2}{2l_1l_2}\)
-\end{eqnarray}
-$$
-
-
-
-
+-->
+<img src="https://latex.codecogs.com/gif.latex?\theta_1&space;=&space;\frac{\pi}{2}&space;-&space;\arccos\left(\frac{l_1^2&space;&plus;&space;l_d^2&space;-&space;l_2^2}{2l_1l_d}\right)&space;-&space;\arctan\frac{y}{x}"><br>
+<img src="https://latex.codecogs.com/gif.latex?\theta_2&space;=&space;\pi&space;-&space;\arcsin\left(\frac{l_1^2&space;&plus;&space;l_2^2&space;-&space;l_d^2}{2l_1l_2}\right)">
 
 ## レポート課題
 
