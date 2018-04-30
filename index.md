@@ -105,7 +105,6 @@ $$
 \end{eqnarray}
 $$
 -->
-$$
 <img src="https://latex.codecogs.com/gif.latex?\alpha&space;=&space;\arccos\left\(\frac{l_1^2&space;&plus;&space;l_d^2&space;-&space;l_2^2}{2l_1l_d}\right\)"><br>
 <img src="https://latex.codecogs.com/gif.latex?\beta&space;=&space;\arcsin\left\(\frac{l_1^2&space;&plus;&space;l_2^2&space;-&space;l_d^2}{2l_1l_2}\right\)"><br>
 <img src="https://latex.codecogs.com/gif.latex?\phi&space;=&space;\arctan\frac{y}{x}">
