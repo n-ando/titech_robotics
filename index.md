@@ -18,9 +18,10 @@ layout: default
 
 ### 解答1
 
-点P2 <img src="https://latex.codecogs.com/gif.latex?(x,&space;y)"> の の値をl1, l2, θ1, θ2で表す。
+点P2 <img src="https://latex.codecogs.com/gif.latex?(x,&space;y)"> の の値を <img src="https://latex.codecogs.com/gif.latex?l_1,&space;l_2,&space;\theta_1,&space;\theta_2"> で表す。
 
 まず、点P1 <img src="https://latex.codecogs.com/gif.latex?(x_1,&space;y_1)">  の座標は、
+
 <!--
 $$
 \begin{eqnarray}
@@ -29,7 +30,6 @@ y_1 & = & l_1 \sin\theta_1
 \end{eqnarray}
 $$
 -->
-
 <img src="https://latex.codecogs.com/gif.latex?x_1&space;=&space;l_1\cos\theta_1"><br>
 <img src="https://latex.codecogs.com/gif.latex?x_2&space;=&space;l_1\sin\theta_2">
 
@@ -44,7 +44,7 @@ $$-->
 <img src="https://latex.codecogs.com/gif.latex?x_2&space;&&space;=&space;&&space;l_2&space;\cos(\theta_1&space;&plus;&space;\theta_2)"><br>
 <img src="https://latex.codecogs.com/gif.latex?x_2&space;&&space;=&space;&&space;l_2&space;\sin(\theta_1&space;&plus;&space;\theta_2)">
 
-であり、最終的に (x, y) は、
+であり、最終的に (x, y) は以下の式で表される。
 
 <!--
 $$
@@ -62,9 +62,11 @@ $$
 ### 課題2 (逆運動学 (2自由度))
 <img src="https://github.com/n-ando/titech_robotics2018/raw/master/figs/q0_fig2.png" align="right">
 
-右のアームの逆運動学を求めよ。
+右のアームの逆運動学 (<img src="https://latex.codecogs.com/gif.latex?(x, y)"> が与えられたとき、これを <img src="https://latex.codecogs.com/gif.latex?(\theta_1, \theta_2)"> の式で表す。) を求めよ。
+
 
 ### 解答2
+
 図中 <img src="https://latex.codecogs.com/gif.latex?\theta_1,&space;\theta_2"> は <img src="https://latex.codecogs.com/gif.latex?\alpha,&space;\beta,&space;\phi"> を用いて以下の式で表される。
 
 <!--
@@ -91,7 +93,7 @@ $$-->
 <img src="https://latex.codecogs.com/gif.latex?\cos\beta&space;=&space;\left\(\frac{l_1^2&space;&plus;&space;l_2^2&space;-&space;l_d^2}{2l_1l_2}\right\)"><br>
 <img src="https://latex.codecogs.com/gif.latex?\tan\phi&space;=&space;\frac{y}{x}">
 
-逆関数を用いて以下のようにあらわすことができる。
+逆関数を用いて以下のように表すことができる。
 
 <!--
 $$
