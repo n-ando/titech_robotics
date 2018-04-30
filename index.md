@@ -10,7 +10,96 @@ layout: default
 
 ## 授業中課題
 
-ここに、授業中に出題した課題の回答を掲載します。
+### 課題1 (順運動学 (2自由度))
+
+右の2自由度アームの順運動学を求めよ。
+
+### 解答1
+
+点P2 (x, y)の値をl1, l2, θ1, θ2で表す。
+
+$$
+\begin{eqnarray}
+x_2 & = & l_s \times \cos(\theta_1 + \theta_2) \\
+y_2 & = & l_2 \times \sin(\theta_1 + \theta_2
+\end{eqnarray}
+$$
+
+### 課題2 (逆運動学 (2自由度))
+
+右のアームの逆運動学を求めよ。
+
+### 解答2
+
+ヒント：θ1, θ2 は以下の式で表される。
+
+$$
+\begin{eqnarray}
+\theta_1 & = & \frac{\pi}{2} - \alpha - \phi \\
+\theta_2 & = & \pi - \beta
+\end{eqnarray}
+$$
+
+図のように長さを設定する点P1の位置は、
+
+$$
+\begin{eqnarray}
+x_1 & = & l_1 \times \cos\theta_1 \\
+y_1 & = & l_1 \times \sin\theta_1
+\end{eqnarray}
+$$
+
+点P1から点P2の位置は、
+
+$$
+\begin{eqnarray}
+x_2 & = & l_2 \times \cos(\theta_1 + \theta_2) \\
+y_2 & = & l_2 \times \sin(\theta_1 + \theta_2)
+\end{eqnarray}
+$$
+であり、最終的に (x, y) は、
+$$
+\begin{eqnarray}
+x & = & l_1 \times \cos\theta_1 + l_2 \times \cos(\theta_1 + \theta_2) \\
+y & = & l_1 \times \sin\theta_1 + l_2 \times \sin(\theta_1 + \theta_2)
+\end{eqnarray}
+$$
+である。
+余弦定理と逆関数を使って値を求めます。
+
+$$
+\begin{eqnarray}
+\theta_1 & = & \frac{\pi}{2} - \alpha - \phi \\
+\theta_2 & = & \pi - \beta
+\end{eqnarray}
+$$
+
+$$
+\begin{eqnarray}
+\cos\alpha & = & \(\fram{l_1^2 + l_d^2 - l_2^2}{2l_1l_d}\) \\
+\cos\beta  & = & \(\fram{l_1^2 + l_2^2 - l_d^2}{2l_1l_2}\) \\
+\tan\phi   & = & \frac{y}{x}
+\end{eqnarray}
+$$
+
+$$
+\begin{eqnarray}
+\alpha & = & \acos\(\fram{l_1^2 + l_d^2 - l_2^2}{2l_1l_d}\) \\
+\beta  & = & \asin\(\fram{l_1^2 + l_2^2 - l_d^2}{2l_1l_2}\) \\
+\phi   & = & \atan\frac{y}{x}
+\end{eqnarray}
+$$
+
+求める角度は、
+$$
+\begin{eqnarray}
+\theta_1 & = & \frac{\pi}{2} - \acos\(\fram{l_1^2 + l_d^2 - l_2^2}{2l_1l_d}\) - \atan\frac{y}{x} \\
+\theta_2 & = & \pi - \asin\(\fram{l_1^2 + l_2^2 - l_d^2}{2l_1l_2}\)
+\end{eqnarray}
+$$
+
+
+
 
 
 ## レポート課題
