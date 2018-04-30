@@ -18,16 +18,27 @@ layout: default
 
 ### 解答1
 
-点P2 (x, y)の値をl1, l2, θ1, θ2で表す。
+点P2 <img src="https://latex.codecogs.com/gif.latex?(x,&space;y)"> の の値をl1, l2, θ1, θ2で表す。
 
+まず、点P1 <img src="https://latex.codecogs.com/gif.latex?(x_1,&space;y_1)">  の座標は、
+<img src="https://latex.codecogs.com/gif.latex?x_1&space;=&space;l_1\cos\theta_1">
+<br>
+<img src="https://latex.codecogs.com/gif.latex?x_2&space;=&space;l_1\sin\theta_2">
+
+点P1からみた点P2の座標 <img src="https://latex.codecogs.com/gif.latex?(x_2,&space;y_2)"> は、
 <img src="https://latex.codecogs.com/gif.latex?x_2&space;&&space;=&space;&&space;l_2&space;\cos(\theta_1&space;&plus;&space;\theta_2)">
 <br>
 <img src="https://latex.codecogs.com/gif.latex?x_2&space;&&space;=&space;&&space;l_2&space;\sin(\theta_1&space;&plus;&space;\theta_2)">
+であり、原点座標系から見た時のP2の座標は
+
+<img src="https://latex.codecogs.com/gif.latex?x&space;=&space;l_1\cos\theta_1&space;&plus;&space;l_2\cos(\theta_1&space;&plus;&space;\theta_2)">
+<br>
+<img src="https://latex.codecogs.com/gif.latex?y&space;=&space;l_1\sin\theta_1&space;&plus;&space;l_2\sin(\theta_1&space;&plus;&space;\theta_2">
 
 $$
 \begin{eqnarray}
-x_2 & = & l_s \times \cos(\theta_1 + \theta_2) \\
-y_2 & = & l_2 \times \sin(\theta_1 + \theta_2
+x = l_1\cos\theta_1 + l_2\cos(\theta_1 + \theta_2) \\
+y = l_1\sin\theta_1 + l_2\sin(\theta_1 + \theta_2
 \end{eqnarray}
 $$
 
