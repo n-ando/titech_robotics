@@ -62,7 +62,8 @@ $$
 ### 課題2 (逆運動学 (2自由度))
 <img src="https://github.com/n-ando/titech_robotics2018/raw/master/figs/q0_fig2.png" align="right">
 
-右のアームの逆運動学 (<img src="https://latex.codecogs.com/gif.latex?(x, y)"> が与えられたとき、これを <img src="https://latex.codecogs.com/gif.latex?(\theta_1, \theta_2)"> の式で表す。) を求めよ。
+右のアームの逆運動学 (<img src="https://latex.codecogs.com/gif.latex?(x,&space;y)"> が与えられたとき、<img src="https://latex.codecogs.com/gif.latex?l_1,&space;l_2"> を用いて
+<img src="https://latex.codecogs.com/gif.latex?(\theta_1,&space;\theta_2)"> を求める。) を求めよ。
 
 
 ### 解答2
