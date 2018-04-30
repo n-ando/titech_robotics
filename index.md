@@ -230,19 +230,19 @@ for pos in path:
 
 ### 解答
 
-#### a)
-* [参考ページ](http://hmatsudaiac.wixsite.com/venus-robotix/define-namingformats-c-windows)
+#### a) データの送信を行う手順・方法
 
-ConsoleOut.cppのonExecute部分。
+* [参考ページ](http://hmatsudaiac.wixsite.com/venus-robotix/define-namingformats-c-windows)
+OpenRTM-aistのConsoleOut.cppのonExecute部分。
 
 ```cpp
-RTC::ReturnCode_t ConsoleIn::onExecute(RTC::UniqueId ec_id)
+RTC::ReturnCode_t ConsoleIn::onExecute(RTC::UniqueId ec_id) // Active状態で周期実行される関数。
 {
-  std::cout << "input number: ";
-  std::cin >> m_data.data;
-  setTimestamp(m_data);
-  m_dataOut.write();
-  return RTC::RTC_OK;
+  std::cout << "input number: ";  // ユーザに入力を促す。
+  std::cin >> m_data.data; // ユーザからの入力値を得る。
+  setTimestamp(m_data); // データにタイムスタンプを押す。
+  m_dataOut.write(); // OutPortからデータを送信。
+  return RTC::RTC_OK;
 }
 ```
 
@@ -252,14 +252,14 @@ RTC::ReturnCode_t ConsoleIn::onExecute(RTC::UniqueId ec_id)
 ConsoleIn.cppのonExecute部分。
 
 ```cpp
-RTC::ReturnCode_t ConsoleOut::onExecute(RTC::UniqueId ec_id)
+RTC::ReturnCode_t ConsoleOut::onExecute(RTC::UniqueId ec_id) // Active状態で周期実行される関数。
 {
-  if(m_dataIn.isNew())
-  {
-    m_dataIn.read();
-    std::cout << "received: " << m_data.data << std::endl;
-    std::cout << "sec: " << m_data.tm.sec << " nsec: " << m_data.tm.nsec << std::endl;
-  }
+  if(m_dataIn.isNew()) // データ入力があれば以下を実行。
+  {
+    m_dataIn.read(); // InPortからデータを読み込み。
+    std::cout << "received: " << m_data.data << std::endl; // 読み込まれたデータを表示。
+    std::cout << "sec: " << m_data.tm.sec << " nsec: " << m_data.tm.nsec << std::endl; // 読み込まれたデータのタイムスタンプを表示。
+  }
   return RTC::RTC_OK;
 }
 ```
