@@ -249,16 +249,16 @@ RTC::ReturnCode_t ConsoleIn::onExecute(RTC::UniqueId ec_id) // Active状態で�
 ROSのパブリッシャの場合。
 
 ```cpp
-#include "ros/ros.h"
-#include "std_msgs/String.h"
-#include <sstream>
+#include "ros/ros.h"  // ROSメインヘッダのインクルード
+#include "std_msgs/String.h" // ROSメッセージ形式 std_msgs/String のインクルード
+#include <sstream> // 標準string streamのインクルード
 
-int main(int argc, char **argv)
+int main(int argc, char **argv) // メイン関数
 {
-  ros::init(argc, argv, "talker");
-  ros::NodeHandle n;
-  ros::Publisher chatter_pub = n.advertise<std_msgs::String>("chatter", 1000);
-  ros::Rate loop_rate(10);
+  ros::init(argc, argv, "talker"); // ROS初期化
+  ros::NodeHandle n; // ROSノード(ROSモジュールの基本単位)のハンドルの宣言
+  ros::Publisher chatter_pub = n.advertise<std_msgs::String>("chatter", 1000); // 送信を行うPublisherの作成
+  ros::Rate loop_rate(10); 
 
 int count = 0;
   while (ros::ok())
