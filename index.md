@@ -20,12 +20,17 @@ layout: default
 
 点P2 (x, y)の値をl1, l2, θ1, θ2で表す。
 
+<img src="https://latex.codecogs.com/gif.latex?x_2&space;&&space;=&space;&&space;l_2&space;\cos(\theta_1&space;&plus;&space;\theta_2)">
+<img src="https://latex.codecogs.com/gif.latex?x_2&space;&&space;=&space;&&space;l_2&space;\sin(\theta_1&space;&plus;&space;\theta_2)">
+
 $$
 \begin{eqnarray}
 x_2 & = & l_s \times \cos(\theta_1 + \theta_2) \\
 y_2 & = & l_2 \times \sin(\theta_1 + \theta_2
 \end{eqnarray}
 $$
+
+
 
 ### 課題2 (逆運動学 (2自由度))
 <img src="https://github.com/n-ando/titech_robotics2018/raw/master/figs/q0_fig2.png" align="right">
