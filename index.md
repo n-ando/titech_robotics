@@ -122,6 +122,9 @@ $$
 <img src="https://latex.codecogs.com/gif.latex?\theta_1&space;=&space;\frac{\pi}{2}&space;-&space;\arccos\left(\frac{l_1^2&space;&plus;&space;l_d^2&space;-&space;l_2^2}{2l_1l_d}\right)&space;-&space;\arctan\frac{y}{x}"><br>
 <img src="https://latex.codecogs.com/gif.latex?\theta_2&space;=&space;\pi&space;-&space;\arcsin\left(\frac{l_1^2&space;&plus;&space;l_2^2&space;-&space;l_d^2}{2l_1l_2}\right)">
 
+
+なお、この逆運動学にはもう一つの解があります。
+
 ## レポート課題
 
 ### 1. ロボット制御に必要な以下のプログラムを示せ（40点）
@@ -157,6 +160,63 @@ paiza.ioはブラウザ上で様々なプログラミング言語を利用して
 レポートに保存したプログラムのURLを張り付けて提出することを推奨します。
 
 * [paiza.io](https://paiza.io/ja/) 
+
+### 解答
+
+逆運動学は2つの解があり、以下の二通りのプログラムが正解となります。
+
+```python
+import math
+
+def invkinem(link, pos):
+	l1 = link[0]
+	l2 = link[1]
+	x = pos[0]
+	y = pos[1]
+	ld = math.sqrt(x * x + y * y)
+	b = math.acos((l1 * l1 + l2 * l2 - ld * ld) / (2 * l1 * l2))
+	a = math.acos((l1 * l1 + ld * ld - l2 * l2) / (2 * l1 * ld))
+	phi = math.atan2(y, x)
+	th = [0] * 2
+	th[0] = - ((math.pi / 2) - a - phi)
+	th[1] = -(math.pi - b)
+
+	return th
+
+link = (1.0, 1.0)
+path = ((-1.0, 1.0), (-0.5, 1.0), (0.0, 1.0), (0.5, 1.0), (1.0,1.0))
+for pos in path:
+  print invkinem(link, pos)
+```
+
+```python
+import math
+
+def invkinem(link, pos):
+	l1 = link[0]
+	l2 = link[1]
+	x = pos[0]
+	y = pos[1]
+	ld = math.sqrt(x * x + y * y)
+	b = math.acos((l1 * l1 + l2 * l2 - ld * ld) / (2 * l1 * l2))
+	a = math.acos((l1 * l1 + ld * ld - l2 * l2) / (2 * l1 * ld))
+	phi = math.atan2(y, x)
+	th = [0] * 2
+	th[0] = - (math.pi / 2 + a - phi)
+	th[1] = math.pi - b
+	return th
+  
+link = (1.0, 1.0)
+path = ((-1.0, 1.0), (-0.5, 1.0), (0.0, 1.0), (0.5, 1.0), (1.0,1.0))
+for pos in path:
+  print invkinem(link, pos)
+```
+
+以下の paiza.io 上のプログラムでは、以上の2通りのプログラムを実行し逆運動学を求めたうえで、純運動学で検算をしています。
+以下のURLにアクセスして試しに実行してみましょう。
+
+* [paiza.io上で実行](https://paiza.io/projects/mxUaGuuAqr2DLu-9vS7Rmg)
+
 
 
 ### 2.ミドルウエアを利用したサンプルプログラムを示せ
