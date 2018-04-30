@@ -52,13 +52,13 @@ $$-->
 $$
 //\begin{eqnarray}
 x = l_1\cos\theta_1 + l_2\cos(\theta_1 + \theta_2) \\
-y = l_1\sin\theta_1 + l_2\sin(\theta_1 + \theta_2
+y = l_1\sin\theta_1 + l_2\sin(\theta_1 + \theta_2)
 \end{eqnarray}
 $$
 -->
 <img src="https://latex.codecogs.com/gif.latex?x&space;=&space;l_1\cos\theta_1&space;&plus;&space;l_2\cos(\theta_1&space;&plus;&space;\theta_2)">
 <br>
-<img src="https://latex.codecogs.com/gif.latex?y&space;=&space;l_1\sin\theta_1&space;&plus;&space;l_2\sin(\theta_1&space;&plus;&space;\theta_2">
+<img src="https://latex.codecogs.com/gif.latex?y&space;=&space;l_1\sin\theta_1&space;&plus;&space;l_2\sin(\theta_1&space;&plus;&space;\theta_2)">
 
 
 
