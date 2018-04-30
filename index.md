@@ -11,8 +11,10 @@ layout: default
 ## 授業中課題
 
 ### 課題1 (順運動学 (2自由度))
+<img src="https://github.com/n-ando/titech_robotics2018/raw/master/figs/q0_fig1.png" align="right">
 
 右の2自由度アームの順運動学を求めよ。
+
 
 ### 解答1
 
@@ -26,12 +28,15 @@ y_2 & = & l_2 \times \sin(\theta_1 + \theta_2
 $$
 
 ### 課題2 (逆運動学 (2自由度))
+<img src="https://github.com/n-ando/titech_robotics2018/raw/master/figs/q0_fig2.png" align="right">
 
 右のアームの逆運動学を求めよ。
 
 ### 解答2
 
-ヒント：θ1, θ2 は以下の式で表される。
+<img src="https://github.com/n-ando/titech_robotics2018/raw/master/figs/q0_fig3.png" align="right">
+
+図中 θ1, θ2 は以下の式で表される。
 
 $$
 \begin{eqnarray}
