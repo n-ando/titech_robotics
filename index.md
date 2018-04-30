@@ -276,8 +276,7 @@ int main(int argc, char **argv) // メイン関数
 }
 ```
 
-
-#### b)
+#### b) データの受信を行う手順・方法
 * [参考ページ](http://hmatsudaiac.wixsite.com/venus-robotix/define-namingformats-c-windows)
 
 ConsoleIn.cppのonExecute部分。
