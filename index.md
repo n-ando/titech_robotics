@@ -110,6 +110,7 @@ $$
 <img src="https://latex.codecogs.com/gif.latex?\phi&space;=&space;\arctan\frac{y}{x}">
 
 以上より、求める角度は、
+
 <!--
 $$
 \begin{eqnarray}
