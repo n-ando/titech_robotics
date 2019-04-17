@@ -86,6 +86,7 @@ $$
 
 
 ### 解答2
+
 <br />
 <br />
 <br />
@@ -97,6 +98,7 @@ $$
 <br />
 <br />
 <br />
+
 <!--
 図中 <img src="https://latex.codecogs.com/gif.latex?\theta_1,&space;\theta_2"> は <img src="https://latex.codecogs.com/gif.latex?\alpha,&space;\beta,&space;\phi"> を用いて以下の式で表される。
 -->
@@ -201,6 +203,7 @@ paiza.ioはブラウザ上で様々なプログラミング言語を利用して
 * [paiza.io](https://paiza.io/ja/) 
 
 ### 解答
+
 <br />
 <br />
 <br />
@@ -212,6 +215,7 @@ paiza.ioはブラウザ上で様々なプログラミング言語を利用して
 <br />
 <br />
 <br />
+
 <!--
 逆運動学は2つの解があり、以下の二通りのプログラムが正解となります。
 
@@ -281,6 +285,7 @@ for pos in path:
 ### 解答
 
 #### a) データの送信を行う手順・方法
+
 <br />
 <br />
 <br />
@@ -292,6 +297,7 @@ for pos in path:
 <br />
 <br />
 <br />
+
 <!--
 OpenRTM-aistのConsoleInサンプルのConsoleIn.cppのonExecute部分。
 
@@ -342,6 +348,7 @@ int main(int argc, char **argv) // メイン関数
 -->
 
 #### b) データの受信を行う手順・方法
+
 <br />
 <br />
 <br />
@@ -353,6 +360,7 @@ int main(int argc, char **argv) // メイン関数
 <br />
 <br />
 <br />
+
 <!--
 OpenRTMのConsoleOutサンプルのConsoleOut.cppのonExecute部分。
 
