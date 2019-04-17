@@ -301,11 +301,12 @@ for pos in path:
 <br />
 <br />
 
+
 <!--
 OpenRTM-aistのConsoleInサンプルのConsoleIn.cppのonExecute部分。
-
+-->
 * [参考ページ](http://hmatsudaiac.wixsite.com/venus-robotix/define-namingformats-c-windows)
-
+<!--
 ```cpp
 RTC::ReturnCode_t ConsoleIn::onExecute(RTC::UniqueId ec_id) // Active状態で周期実行される関数。
 {
@@ -318,9 +319,9 @@ RTC::ReturnCode_t ConsoleIn::onExecute(RTC::UniqueId ec_id) // Active状態で�
 ```
 
 ROSの送信コード（パブリッシャ）のコードを以下に示す。
-
+-->
 * [参考ページ](http://wiki.ros.org/ja/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29)
-
+<!--
 ```cpp
 #include "ros/ros.h"  // ROSメインヘッダのインクルード
 #include "std_msgs/String.h" // ROSメッセージ形式 std_msgs/String のインクルード
@@ -366,9 +367,9 @@ int main(int argc, char **argv) // メイン関数
 
 <!--
 OpenRTMのConsoleOutサンプルのConsoleOut.cppのonExecute部分。
-
+-->
 * [参考ページ](http://hmatsudaiac.wixsite.com/venus-robotix/define-namingformats-c-windows)
-
+<!--
 ```cpp
 RTC::ReturnCode_t ConsoleOut::onExecute(RTC::UniqueId ec_id) // Active状態で周期実行される関数。
 {
@@ -383,9 +384,9 @@ RTC::ReturnCode_t ConsoleOut::onExecute(RTC::UniqueId ec_id) // Active状態で�
 ```
 
 ROSの受信コード（サブスクライバ）のコードを以下に示す。
-
+-->
 * [参考ページ](http://wiki.ros.org/ja/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29)
-
+<!--
 
 ```cpp
 #include "ros/ros.h"  // ROSメインヘッダのインクルード
