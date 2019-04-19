@@ -307,7 +307,7 @@ for pos in path:
 OpenRTM-aistのConsoleInサンプルのConsoleIn.cppのonExecute部分。
 -->
 
-* [参考ページ](http://hmatsudaiac.wixsite.com/venus-robotix/define-namingformats-c-windows)
+* [参考ページ(OpenRTM)](http://hmatsudaiac.wixsite.com/venus-robotix/define-namingformats-c-windows)
 
 <!--
 ```cpp
@@ -324,7 +324,7 @@ RTC::ReturnCode_t ConsoleIn::onExecute(RTC::UniqueId ec_id) // Active状態で�
 ROSの送信コード（パブリッシャ）のコードを以下に示す。
 -->
 
-* [参考ページ](http://wiki.ros.org/ja/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29)
+* [参考ページ(ROS)](http://wiki.ros.org/ja/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29)
 
 <!--
 ```cpp
@@ -374,7 +374,7 @@ int main(int argc, char **argv) // メイン関数
 OpenRTMのConsoleOutサンプルのConsoleOut.cppのonExecute部分。
 -->
 
-* [参考ページ](http://hmatsudaiac.wixsite.com/venus-robotix/define-namingformats-c-windows)
+* [参考ページ(OpenRTM)](http://hmatsudaiac.wixsite.com/venus-robotix/define-namingformats-c-windows)
 
 <!--
 ```cpp
@@ -393,7 +393,7 @@ RTC::ReturnCode_t ConsoleOut::onExecute(RTC::UniqueId ec_id) // Active状態で�
 ROSの受信コード（サブスクライバ）のコードを以下に示す。
 -->
 
-* [参考ページ](http://wiki.ros.org/ja/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29)
+* [参考ページ(ROS)](http://wiki.ros.org/ja/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29)
 
 <!--
 
