@@ -88,6 +88,7 @@ $$
 右のアームの逆運動学 (<img src="https://latex.codecogs.com/gif.latex?(x,&space;y)"> が与えられたとき、<img src="https://latex.codecogs.com/gif.latex?l_1,&space;l_2"> を用いて
 <img src="https://latex.codecogs.com/gif.latex?(\theta_1,&space;\theta_2)"> を求める。) を求めよ。
 
+※講義資料はx軸とy軸が逆になっていましたが回答に影響ある場合は考慮します。
 
 ### 解答2
 
