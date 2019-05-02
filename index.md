@@ -210,19 +210,20 @@ paiza.ioはブラウザ上で様々なプログラミング言語を利用して
 
 ### 解答
 
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
 <!--
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+-->
+
 逆運動学は2つの解があり、以下の二通りのプログラムが正解となります。
 
 ```python
@@ -276,7 +277,7 @@ for pos in path:
 以下のURLにアクセスして試しに実行してみましょう。
 
 * [paiza.io上で実行](https://paiza.io/projects/mxUaGuuAqr2DLu-9vS7Rmg)
--->
+
 
 
 ### 2.ミドルウエアを利用したサンプルプログラムを示せ
@@ -292,26 +293,27 @@ for pos in path:
 
 #### a) データの送信を行う手順・方法
 
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
-
 <!--
-OpenRTM-aistのConsoleInサンプルのConsoleIn.cppのonExecute部分。
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 -->
+
+
+OpenRTM-aistのConsoleInサンプルのConsoleIn.cppのonExecute部分。
+
 
 * [参考ページ(OpenRTM)](http://hmatsudaiac.wixsite.com/venus-robotix/define-namingformats-c-windows)
 
-<!--
+
 ```cpp
 RTC::ReturnCode_t ConsoleIn::onExecute(RTC::UniqueId ec_id) // Active状態で周期実行される関数。
 {
@@ -324,11 +326,11 @@ RTC::ReturnCode_t ConsoleIn::onExecute(RTC::UniqueId ec_id) // Active状態で�
 ```
 
 ROSの送信コード（パブリッシャ）のコードを以下に示す。
--->
+
 
 * [参考ページ(ROS)](http://wiki.ros.org/ja/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29)
 
-<!--
+
 ```cpp
 #include "ros/ros.h"  // ROSメインヘッダのインクルード
 #include "std_msgs/String.h" // ROSメッセージ形式 std_msgs/String のインクルード
@@ -356,29 +358,29 @@ int main(int argc, char **argv) // メイン関数
   return 0;
 }
 ```
--->
+
 
 #### b) データの受信を行う手順・方法
 
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
 <!--
-OpenRTMのConsoleOutサンプルのConsoleOut.cppのonExecute部分。
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 -->
+
+OpenRTMのConsoleOutサンプルのConsoleOut.cppのonExecute部分。
+
 
 * [参考ページ(OpenRTM)](http://hmatsudaiac.wixsite.com/venus-robotix/define-namingformats-c-windows)
 
-<!--
 ```cpp
 RTC::ReturnCode_t ConsoleOut::onExecute(RTC::UniqueId ec_id) // Active状態で周期実行される関数。
 {
@@ -397,7 +399,6 @@ ROSの受信コード（サブスクライバ）のコードを以下に示す�
 
 * [参考ページ(ROS)](http://wiki.ros.org/ja/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29)
 
-<!--
 
 ```cpp
 #include "ros/ros.h"  // ROSメインヘッダのインクルード
@@ -418,7 +419,7 @@ int main(int argc, char **argv)
   return 0;
 }
 ```
--->
+
 
 ### 3. 授業の感想（20点）
 
@@ -427,5 +428,5 @@ int main(int argc, char **argv)
 ※感想も課題の一つですが、よく忘れる人がいます。忘れずに書いてください。
 
 
-- 問い合わせ： n-ando@aist.go.jp
+- 問い合わせ： n-ando@aist.go.jp または issueに書いてください。
 
