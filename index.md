@@ -395,7 +395,6 @@ RTC::ReturnCode_t ConsoleOut::onExecute(RTC::UniqueId ec_id) // Active状態で�
 ```
 
 ROSの受信コード（サブスクライバ）のコードを以下に示す。
--->
 
 * [参考ページ(ROS)](http://wiki.ros.org/ja/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29)
 
