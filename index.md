@@ -170,7 +170,7 @@ $$
 <img src="https://latex.codecogs.com/gif.latex?\theta_2&space;=&space;\pi&space;-&space;\arcsin\left(\frac{l_1^2&space;&plus;&space;l_2^2&space;-&space;l_d^2}{2l_1l_2}\right)">
 
 
-なお、この逆運動学にはもう一つの解がある。
+なお、この逆運動学にはもう一つの解があるので、いずれでも正解とします。
 
 
 ## レポート課題
