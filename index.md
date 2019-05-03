@@ -83,6 +83,7 @@ $$
 
 
 ### 課題2 (逆運動学 (2自由度))
+
 <img src="https://github.com/n-ando/titech_robotics/raw/master/figs/q0_fig2.png" align="right">
 
 右のアームの逆運動学 (<img src="https://latex.codecogs.com/gif.latex?(x,&space;y)"> が与えられたとき、<img src="https://latex.codecogs.com/gif.latex?l_1,&space;l_2"> を用いて
@@ -169,7 +170,7 @@ $$
 <img src="https://latex.codecogs.com/gif.latex?\theta_2&space;=&space;\pi&space;-&space;\arcsin\left(\frac{l_1^2&space;&plus;&space;l_2^2&space;-&space;l_d^2}{2l_1l_2}\right)">
 
 
-なお、この逆運動学にはもう一つの解があります。
+なお、この逆運動学にはもう一つの解がある。
 
 
 ## レポート課題
