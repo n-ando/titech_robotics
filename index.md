@@ -2,16 +2,16 @@
 layout: default
 ---
 
+<!-- ソースを見ようと思った君は賢いね！！でも、宿題は自力でやりましょう。-->
 
-
-# 「ロボットミドルウェア(2019年4月18日)」
-2019年4月18日実施の「ロボットミドルウェア」の授業資料および宿題、参考リンクを掲載しています。
+# 「ロボットミドルウェア(2020年5月21日)」
+2020年5月21日実施の「ロボットミドルウェア」の授業資料および宿題、参考リンクを掲載しています。
 
 **目次**
 
 <!-- TOC -->
 
-- [「ロボットミドルウェア(2019年4月18日)」](#ロボットミドルウェア2019年4月18日)
+- [「ロボットミドルウェア(2020年5月21日)」](#ロボットミドルウェア2020年5月21日)
     - [授業スライド](#授業スライド)
     - [授業中課題](#授業中課題)
         - [課題1 (順運動学 (2自由度))](#課題1-順運動学-2自由度)
@@ -36,7 +36,10 @@ layout: default
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/5xkflUi9AsluR" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/NoriakiAndo/190418-titech-robotics-141086195" title="190418 titech robotics" target="_blank">190418 titech robotics</a> </strong> from <strong><a href="https://www.slideshare.net/NoriakiAndo" target="_blank">NoriakiAndo</a></strong> </div>
 
+<!--
 * [授業スライドPDF](https://github.com/n-ando/titech_robotics/raw/master/190418_%E6%9D%B1%E5%B7%A5%E5%A4%A7%E6%8E%88%E6%A5%AD%E3%80%8C%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E6%8A%80%E8%A1%93%E3%80%8D%E8%B3%87%E6%96%99.pdf)
+-->
+* [授業スライドPDF]()
 
 ## 授業中課題
 
@@ -60,11 +63,11 @@ layout: default
 <br />
 <br />
 -->
-
+<!--
 点P2 <img src="https://latex.codecogs.com/gif.latex?(x,&space;y)"> の の値を <img src="https://latex.codecogs.com/gif.latex?l_1,&space;l_2,&space;\theta_1,&space;\theta_2"> で表す。
 
 まず、点P1 <img src="https://latex.codecogs.com/gif.latex?(x_1,&space;y_1)">  の座標は、
-
+-->
 
 <!--
 $$
@@ -75,12 +78,12 @@ y_1 & = & l_1 \sin\theta_1
 $$
 -->
 
-
+<!--
 <img src="https://latex.codecogs.com/gif.latex?x_1&space;=&space;l_1\cos\theta_1"><br>
 <img src="https://latex.codecogs.com/gif.latex?x_2&space;=&space;l_1\sin\theta_2">
 
 点P1からみた点P2の座標 <img src="https://latex.codecogs.com/gif.latex?(x_2,&space;y_2)"> は、
-
+-->
 
 <!--$$
 \begin{eqnarray}
@@ -89,11 +92,12 @@ y_2 & = & l_2 \times \sin(\theta_1 + \theta_2)
 \end{eqnarray}
 $$-->
 
-
+<!--
 <img src="https://latex.codecogs.com/gif.latex?x_2&space;&&space;=&space;&&space;l_2&space;\cos(\theta_1&space;&plus;&space;\theta_2)"><br>
 <img src="https://latex.codecogs.com/gif.latex?x_2&space;&&space;=&space;&&space;l_2&space;\sin(\theta_1&space;&plus;&space;\theta_2)">
 
 であり、最終的に (x, y) は以下の式で表される。
+-->
 
 <!--
 $$
@@ -104,10 +108,10 @@ y = l_1\sin\theta_1 + l_2\sin(\theta_1 + \theta_2)
 $$
 -->
 
-
+<!--
 <img src="https://latex.codecogs.com/gif.latex?x&space;=&space;l_1\cos\theta_1&space;&plus;&space;l_2\cos(\theta_1&space;&plus;&space;\theta_2)"><br>
 <img src="https://latex.codecogs.com/gif.latex?y&space;=&space;l_1\sin\theta_1&space;&plus;&space;l_2\sin(\theta_1&space;&plus;&space;\theta_2)">
-
+-->
 
 
 ### 課題2 (逆運動学 (2自由度))
@@ -135,8 +139,9 @@ $$
 <br />
 -->
 
-
+<!--
 図中 <img src="https://latex.codecogs.com/gif.latex?\theta_1,&space;\theta_2"> は <img src="https://latex.codecogs.com/gif.latex?\alpha,&space;\beta,&space;\phi"> を用いて以下の式で表される。
+-->
 
 <!--
 $$
@@ -147,11 +152,12 @@ $$
 $$
 -->
 
-
+<!--
 <img src="https://latex.codecogs.com/gif.latex?\theta_1&space;=&space;\frac{\pi}{2}&space;-&space;\alpha&space;-&space;\phi"><br>
 <img src="https://latex.codecogs.com/gif.latex?\theta_2&space;=&space;\pi&space;-&space;\beta">
 
 余弦定理と逆関数を使って、<img src="https://latex.codecogs.com/gif.latex?\cos\alpha,&space;\cos\beta,&space;\tan\phi"> の値を求めると、
+-->
 
 <!--$$
 \begin{eqnarray}
@@ -161,12 +167,13 @@ $$
 \end{eqnarray}
 $$-->
 
-
+<!--
 <img src="https://latex.codecogs.com/gif.latex?\cos\alpha&space;=&space;\left\(\frac{l_1^2&space;&plus;&space;l_d^2&space;-&space;l_2^2}{2l_1l_d}\right\)"><br>
 <img src="https://latex.codecogs.com/gif.latex?\cos\beta&space;=&space;\left\(\frac{l_1^2&space;&plus;&space;l_2^2&space;-&space;l_d^2}{2l_1l_2}\right\)"><br>
 <img src="https://latex.codecogs.com/gif.latex?\tan\phi&space;=&space;\frac{y}{x}">
 
 逆関数を用いて以下のように表すことができる。
+-->
 
 <!--
 $$
@@ -178,11 +185,13 @@ $$
 $$
 -->
 
+<!--
 <img src="https://latex.codecogs.com/gif.latex?\alpha&space;=&space;\arccos\left\(\frac{l_1^2&space;&plus;&space;l_d^2&space;-&space;l_2^2}{2l_1l_d}\right\)"><br>
 <img src="https://latex.codecogs.com/gif.latex?\beta&space;=&space;\arccos\left\(\frac{l_1^2&space;&plus;&space;l_2^2&space;-&space;l_d^2}{2l_1l_2}\right\)"><br>
 <img src="https://latex.codecogs.com/gif.latex?\phi&space;=&space;\arctan\frac{y}{x}">
 
 以上より、求める角度は、
+-->
 
 <!--
 $$
@@ -193,13 +202,12 @@ $$
 $$
 -->
 
-
+<!--
 <img src="https://latex.codecogs.com/gif.latex?\theta_1&space;=&space;\frac{\pi}{2}&space;-&space;\arccos\left(\frac{l_1^2&space;&plus;&space;l_d^2&space;-&space;l_2^2}{2l_1l_d}\right)&space;-&space;\arctan\frac{y}{x}"><br>
 <img src="https://latex.codecogs.com/gif.latex?\theta_2&space;=&space;\pi&space;-&space;\arccos\left(\frac{l_1^2&space;&plus;&space;l_2^2&space;-&space;l_d^2}{2l_1l_2}\right)">
 
-
 なお、この逆運動学にはもう一つの解があるので、いずれでも正解とします。
-
+-->
 
 ## レポート課題
 
@@ -253,6 +261,7 @@ paiza.ioはブラウザ上で様々なプログラミング言語を利用して
 <br />
 -->
 
+<!--
 逆運動学は2つの解があり、以下の二通りのプログラムが正解となります。
 
 ```python
@@ -307,7 +316,7 @@ for pos in path:
 
 * [paiza.io上で実行](https://paiza.io/projects/mxUaGuuAqr2DLu-9vS7Rmg)
 
-
+-->
 
 ### 2.ミドルウエアを利用したサンプルプログラムを示せ
 #### a) ロボットミドルウエアを一つ選び、データの送信を行う手順・方法を調べ説明せよ（20点）
@@ -336,7 +345,7 @@ for pos in path:
 <br />
 -->
 
-
+<!--
 OpenRTM-aistのConsoleInサンプルのConsoleIn.cppのonExecute部分。
 
 
@@ -388,6 +397,7 @@ int main(int argc, char **argv) // メイン関数
 }
 ```
 
+-->
 
 #### b) データの受信を行う手順・方法
 
@@ -405,6 +415,7 @@ int main(int argc, char **argv) // メイン関数
 <br />
 -->
 
+<!--
 OpenRTMのConsoleOutサンプルのConsoleOut.cppのonExecute部分。
 
 
@@ -447,7 +458,7 @@ int main(int argc, char **argv)
   return 0;
 }
 ```
-
+-->
 
 ### 3. 授業の感想（20点）
 
