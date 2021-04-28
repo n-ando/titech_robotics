@@ -4,17 +4,15 @@ layout: default
 
 <!-- ソースを見ようと思った君は賢いね！！でも、宿題は自力でやりましょう。-->
 
-# 「ロボットミドルウェア(~~2020年5月21日~~ 2020年度は中止)」
+# 「ロボットミドルウェア(2021年4月29日)」
 
-~~2020年5月21日実施の「ロボットミドルウェア」の授業資料および宿題、参考リンクを掲載しています。~~
-
-2020年度の「ロボット技術」の授業は新型コロナウィルスの影響のため、すべて中止となりました。
+2021年4月29日実施の「ロボットミドルウェア」の授業資料および宿題、参考リンクを掲載しています。
 
 **目次**
 
 <!-- TOC -->
 
-- [「ロボットミドルウェア(2020年5月21日)」](#ロボットミドルウェア2020年5月21日)
+- [「ロボットミドルウェア(2020年5月21日)」](#ロボットミドルウェア2021年4月29日)
     - [授業スライド](#授業スライド)
     - [授業中課題](#授業中課題)
         - [課題1 (順運動学 (2自由度))](#課題1-順運動学-2自由度)
@@ -37,12 +35,8 @@ layout: default
 
 ## 授業スライド
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/5xkflUi9AsluR" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/NoriakiAndo/190418-titech-robotics-141086195" title="190418 titech robotics" target="_blank">190418 titech robotics</a> </strong> from <strong><a href="https://www.slideshare.net/NoriakiAndo" target="_blank">NoriakiAndo</a></strong> </div>
 
-<!--
-* [授業スライドPDF](https://github.com/n-ando/titech_robotics/raw/master/190418_%E6%9D%B1%E5%B7%A5%E5%A4%A7%E6%8E%88%E6%A5%AD%E3%80%8C%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E6%8A%80%E8%A1%93%E3%80%8D%E8%B3%87%E6%96%99.pdf)
--->
-* [授業スライドPDF]()
+* [授業スライドPDF](210429_Titech_RobotTechnology_Middleware.pdf)
 
 ## 授業中課題
 
