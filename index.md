@@ -87,8 +87,8 @@ y_2 & = & l_2 \times \sin(\theta_1 + \theta_2)
 \end{eqnarray}
 -->
 
-<img src="https://latex.codecogs.com/gif.latex?x_2&space;&&space;=&space;&space;l_2&space;\cos(\theta_1&space;&plus;&space;\theta_2)"><br>
-<img src="https://latex.codecogs.com/gif.latex?x_2&space;&&space;=&space;&space;l_2&space;\sin(\theta_1&space;&plus;&space;\theta_2)">
+<img src="https://latex.codecogs.com/gif.latex?x_2&space;&space;=&space;&space;l_2&space;\cos(\theta_1&space;&plus;&space;\theta_2)"><br>
+<img src="https://latex.codecogs.com/gif.latex?x_2&space;&space;=&space;&space;l_2&space;\sin(\theta_1&space;&plus;&space;\theta_2)">
 
 であり、最終的に (x, y) は以下の式で表される。
 
