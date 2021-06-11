@@ -166,7 +166,7 @@ $$
 \begin{eqnarray}
 \alpha = \arccos\left\(\frac{l_1^2 + l_d^2 - l_2^2}{2l_1l_d}\right\) \\
 \beta  = \arccos\left\(\frac{l_1^2 + l_2^2 - l_d^2}{2l_1l_2}\right\) \\
-\phi   = \arctan\frac{x}{y}
+\phi   = \arctan\frac{x}{y} 座標軸のとり方に注意
 \end{eqnarray}
 $$
 -->
