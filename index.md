@@ -4,7 +4,7 @@ layout: default
 
 <!-- ソースを見ようと思った君は賢いね！！でも、宿題は自力でやりましょう。-->
 
-# 「ロボットミドルウェア(2021年4月29日)」
+# 「ロボットミドルウェア(2022年5月26日)」
 
 2022年5月26日実施の「ロボットミドルウェア」の授業資料および宿題、参考リンクを掲載しています。
 
@@ -202,6 +202,8 @@ $$
 \end{eqnarray}
 $$
 -->
+
+<!--
 
 <img src="https://latex.codecogs.com/gif.latex?\theta_1&space;=&space;\frac{\pi}{2}&space;-&space;\arccos\left(\frac{l_1^2&space;&plus;&space;l_d^2&space;-&space;l_2^2}{2l_1l_d}\right)&space;-&space;\arctan\frac{x}{y}"><br>
 <img src="https://latex.codecogs.com/gif.latex?\theta_2&space;=&space;\pi&space;-&space;\arccos\left(\frac{l_1^2&space;&plus;&space;l_2^2&space;-&space;l_d^2}{2l_1l_2}\right)">
