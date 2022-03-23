@@ -13,21 +13,20 @@ layout: default
 <!-- TOC -->
 
 - [授業スライド](#授業スライド)
-- [授業中課題](#授業中課題)
-    - [課題1 (順運動学 (2自由度))](#課題1-順運動学-2自由度)
-    - [解答1](#解答1)
-    - [課題2 (逆運動学 (2自由度))](#課題2-逆運動学-2自由度)
-    - [解答2](#解答2)
 - [レポート課題](#レポート課題)
-    - [1. ロボット制御に必要な以下のプログラムを示せ（40点）](#1-ロボット制御に必要な以下のプログラムを示せ40点)
-    - [解答](#解答)
-    - [2.ミドルウエアを利用したサンプルプログラムを示せ](#2ミドルウエアを利用したサンプルプログラムを示せ)
-        - [a) ロボットミドルウエアを一つ選び、データの送信を行う手順・方法を調べ説明せよ（20点）](#a-ロボットミドルウエアを一つ選びデータの送信を行う手順・方法を調べ説明せよ20点)
-        - [b) 同様に、データの受信を行う手順・方法を調べ説明せよ（20点）](#b-同様にデータの受信を行う手順・方法を調べ説明せよ20点)
-    - [解答](#解答-1)
+    - [課題1 (順運動学 (2自由度)) (15点)](#課題1-順運動学-2自由度-15点)
+    - [解答1](#解答1)
+    - [課題2 (逆運動学 (2自由度)) (15点)](#課題2-逆運動学-2自由度-15点)
+    - [解答2](#解答2)
+    - [課題3. ロボット制御に必要な以下のプログラムを示せ（30点）](#課題3-ロボット制御に必要な以下のプログラムを示せ30点)
+    - [解答3](#解答3)
+    - [課題4.ミドルウエアを利用したサンプルプログラムを示せ](#課題4ミドルウエアを利用したサンプルプログラムを示せ)
+        - [a) ロボットミドルウエアを一つ選び、データの送信を行う手順・方法を調べ説明せよ（15点）](#a-ロボットミドルウエアを一つ選びデータの送信を行う手順・方法を調べ説明せよ15点)
+        - [b) 同様に、データの受信を行う手順・方法を調べ説明せよ（15点）](#b-同様にデータの受信を行う手順・方法を調べ説明せよ15点)
+    - [解答4](#解答4)
         - [a) データの送信を行う手順・方法](#a-データの送信を行う手順・方法)
         - [b) データの受信を行う手順・方法](#b-データの受信を行う手順・方法)
-    - [3. 授業の感想（20点）](#3-授業の感想20点)
+    - [5. 授業の感想（10点）](#5-授業の感想10点)
 - [問い合わせ](#問い合わせ)
 
 <!-- /TOC -->
@@ -38,9 +37,11 @@ layout: default
 
 * [授業スライドPDF](220526_Titech_RobotTechnology_Middleware.pdf)
 
-## 授業中課題
+## レポート課題
+今年から授業中課題がなくなりましたので、以下すべてをレポート課題としました。
+なお、直前での告知となりましたので、プログラムで使用している式が正しければ、おまけで課題2は正解しているものとみなします。
 
-### 課題1 (順運動学 (2自由度))
+### 課題1 (順運動学 (2自由度)) (15点)
 <img src="https://github.com/n-ando/titech_robotics/raw/master/figs/q0_fig1.png" align="right">
 
 右の2自由度アームの順運動学を求めよ。
@@ -48,25 +49,24 @@ layout: default
 
  を求める。
 ### 解答1
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
 
 <!--
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+-->
 
 点P2 <img src="https://latex.codecogs.com/gif.latex?(x,&space;y)"> の の値を <img src="https://latex.codecogs.com/gif.latex?l_1,&space;l_2,&space;\theta_1,&space;\theta_2"> で表す。
 
 まず、点P1 <img src="https://latex.codecogs.com/gif.latex?(x_1,&space;y_1)">  の座標は、
-
--->
 
 <!-- 使用しない
 $$
@@ -77,13 +77,10 @@ y_1 & = & l_1 \sin\theta_1
 $$
 -->
 
-<!-- 
 <img src="https://latex.codecogs.com/gif.latex?x_1&space;=&space;l_1\cos\theta_1"><br>
 <img src="https://latex.codecogs.com/gif.latex?x_2&space;=&space;l_1\sin\theta_2">
 
 点P1からみた点P2の座標 <img src="https://latex.codecogs.com/gif.latex?(x_2,&space;y_2)"> は、
-
--->
 
 <!-- 使用しない
 \begin{eqnarray}
@@ -92,12 +89,10 @@ y_2 & = & l_2 \times \sin(\theta_1 + \theta_2)
 \end{eqnarray}
 -->
 
-<!--
 <img src="https://latex.codecogs.com/gif.latex?x_2&space;&space;=&space;&space;l_2&space;\cos(\theta_1&space;&plus;&space;\theta_2)"><br>
 <img src="https://latex.codecogs.com/gif.latex?x_2&space;&space;=&space;&space;l_2&space;\sin(\theta_1&space;&plus;&space;\theta_2)">
 
 であり、最終的に (x, y) は以下の式で表される。
--->
 
 <!-- 使用しない
 $$
@@ -108,13 +103,11 @@ y = l_1\sin\theta_1 + l_2\sin(\theta_1 + \theta_2)
 $$
 -->
 
-<!--
 <img src="https://latex.codecogs.com/gif.latex?x&space;=&space;l_1\cos\theta_1&space;&plus;&space;l_2\cos(\theta_1&space;&plus;&space;\theta_2)"><br>
 <img src="https://latex.codecogs.com/gif.latex?y&space;=&space;l_1\sin\theta_1&space;&plus;&space;l_2\sin(\theta_1&space;&plus;&space;\theta_2)">
 
--->
 
-### 課題2 (逆運動学 (2自由度))
+### 課題2 (逆運動学 (2自由度)) (15点)
 
 <img src="https://github.com/n-ando/titech_robotics/raw/master/figs/q0_fig2.png" align="right">
 
@@ -125,23 +118,21 @@ $$
 
 ### 解答2
 
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
 <!--
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+-->
 
 図中 <img src="https://latex.codecogs.com/gif.latex?\theta_1,&space;\theta_2"> は <img src="https://latex.codecogs.com/gif.latex?\alpha,&space;\beta,&space;\phi"> を用いて以下の式で表される。
-
--->
 
 <!-- 使用しない
 $$
@@ -152,12 +143,10 @@ $$
 $$
 -->
 
-<!--
 <img src="https://latex.codecogs.com/gif.latex?\theta_1&space;=&space;\frac{\pi}{2}&space;-&space;\alpha&space;-&space;\phi"><br>
 <img src="https://latex.codecogs.com/gif.latex?\theta_2&space;=&space;\pi&space;-&space;\beta">
 
 余弦定理と逆関数を使って、<img src="https://latex.codecogs.com/gif.latex?\cos\alpha,&space;\cos\beta,&space;\tan\phi"> の値を求めると、
--->
 
 <!-- 使用しない
 $$
@@ -169,13 +158,11 @@ $$
 $$
 -->
 
-<!--
 <img src="https://latex.codecogs.com/gif.latex?\cos\alpha&space;=&space;\left\(\frac{l_1^2&space;&plus;&space;l_d^2&space;-&space;l_2^2}{2l_1l_d}\right\)"><br>
 <img src="https://latex.codecogs.com/gif.latex?\cos\beta&space;=&space;\left\(\frac{l_1^2&space;&plus;&space;l_2^2&space;-&space;l_d^2}{2l_1l_2}\right\)"><br>
 <img src="https://latex.codecogs.com/gif.latex?\tan\phi&space;=&space;\frac{x}{y}">
 
 逆関数を用いて以下のように表すことができる。
--->
 
 <!-- 使用しない
 $$
@@ -187,13 +174,11 @@ $$
 $$
 -->
 
-<!--
 <img src="https://latex.codecogs.com/gif.latex?\alpha&space;=&space;\arccos\left\(\frac{l_1^2&space;&plus;&space;l_d^2&space;-&space;l_2^2}{2l_1l_d}\right\)"><br>
 <img src="https://latex.codecogs.com/gif.latex?\beta&space;=&space;\arccos\left\(\frac{l_1^2&space;&plus;&space;l_2^2&space;-&space;l_d^2}{2l_1l_2}\right\)"><br>
 <img src="https://latex.codecogs.com/gif.latex?\phi&space;=&space;\arctan\frac{x}{y}">
 
 以上より、求める角度は、
--->
 
 <!-- 使用しない
 $$
@@ -204,18 +189,13 @@ $$
 $$
 -->
 
-<!--
-
 <img src="https://latex.codecogs.com/gif.latex?\theta_1&space;=&space;\frac{\pi}{2}&space;-&space;\arccos\left(\frac{l_1^2&space;&plus;&space;l_d^2&space;-&space;l_2^2}{2l_1l_d}\right)&space;-&space;\arctan\frac{x}{y}"><br>
 <img src="https://latex.codecogs.com/gif.latex?\theta_2&space;=&space;\pi&space;-&space;\arccos\left(\frac{l_1^2&space;&plus;&space;l_2^2&space;-&space;l_d^2}{2l_1l_2}\right)">
 
 なお、この逆運動学にはもう一つの解があるので、いずれでも正解とします。
 
--->
 
-## レポート課題
-
-### 1. ロボット制御に必要な以下のプログラムを示せ（40点）
+### 課題3. ロボット制御に必要な以下のプログラムを示せ（30点）
 2自由度のアームの逆運動学を計算する以下の仕様の関数のPythonプログラムを作成し、次のプログラムを完成させ、実行結果を示せ。　
 
 （注）以下にプログラム例を示します。このプログラムを完成させてください。このプログラでは、path変数に代入されている手先目標座標列に対する関節角度を順に出力します。
@@ -250,21 +230,22 @@ paiza.ioはブラウザ上で様々なプログラミング言語を利用して
 
 * [paiza.io](https://paiza.io/ja/) 
 
-### 解答
-
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
+### 解答3
 
 <!--
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+-->
+
 逆運動学は2つの解があり、以下の二通りのプログラムが正解となります。
 
 ```python
@@ -319,37 +300,35 @@ for pos in path:
 
 * [paiza.io上で実行](https://paiza.io/projects/mxUaGuuAqr2DLu-9vS7Rmg)
 
--->
 
-
-### 2.ミドルウエアを利用したサンプルプログラムを示せ
-#### a) ロボットミドルウエアを一つ選び、データの送信を行う手順・方法を調べ説明せよ（20点）
+### 課題4.ミドルウエアを利用したサンプルプログラムを示せ
+#### a) ロボットミドルウエアを一つ選び、データの送信を行う手順・方法を調べ説明せよ（15点）
 結果として、コメントを付したソースコード（完全である必要はないが、データ送信に必要な最低限の部分を示すこと。例えばRTMであればonExecute関数部分、ROSであれば Publisherの宣言〜データ送信部分を、行ごとに何をしているのかコメントを付して）を添付せよ。
 
-#### b) 同様に、データの受信を行う手順・方法を調べ説明せよ（20点）
+#### b) 同様に、データの受信を行う手順・方法を調べ説明せよ（15点）
 結果として、コメントを付したソースコード（完全である必要はないが、データ受信に必要な最低限の部分を示すこと。例えばRTMであればonExecute関数部分、ROSであれば Subscriberの部分（コールバック関数含む）を行ごとに何をしているのかコメントを付して）を添付せよ。
 
 （注）この課題では、Web上から適切なプログラムを取得し、その内容を理解しているかどうかを見ます。1行ごとに何をしているか理解し、適切なコメントを付記しているかどうかで理解度を採点します。
 
-### 解答
+### 解答4
 
 #### a) データの送信を行う手順・方法
 
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
 <!--
-OpenRTM-aistのConsoleInサンプルのConsoleIn.cppのonExecute部分。
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+-->
 
+OpenRTM-aistのConsoleInサンプルのConsoleIn.cppのonExecute部分。
 
 * [参考ページ(OpenRTM)](http://hmatsudaiac.wixsite.com/venus-robotix/define-namingformats-c-windows)
 
@@ -398,26 +377,24 @@ int main(int argc, char **argv) // メイン関数
   return 0;
 }
 ```
--->
 
 #### b) データの受信を行う手順・方法
 
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
 <!--
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+-->
 
 OpenRTMのConsoleOutサンプルのConsoleOut.cppのonExecute部分。
-
 
 * [参考ページ(OpenRTM)](http://hmatsudaiac.wixsite.com/venus-robotix/define-namingformats-c-windows)
 
@@ -459,10 +436,8 @@ int main(int argc, char **argv)
 }
 ```
 
--->
 
-
-### 3. 授業の感想（20点）
+### 5. 授業の感想（10点）
 
 授業の感想、プログラミング、ロボットミドルウェアに対しての感想を記載してください。
 
