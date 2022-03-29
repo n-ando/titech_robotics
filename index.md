@@ -78,7 +78,7 @@ $$
 -->
 
 <img src="https://latex.codecogs.com/gif.latex?x_1&space;=&space;l_1\cos\theta_1"><br>
-<img src="https://latex.codecogs.com/gif.latex?x_2&space;=&space;l_1\sin\theta_2">
+<img src="https://latex.codecogs.com/gif.latex?y_1&space;=&space;l_1\sin\theta_1">
 
 点P1からみた点P2の座標 <img src="https://latex.codecogs.com/gif.latex?(x_2,&space;y_2)"> は、
 
@@ -90,7 +90,7 @@ y_2 & = & l_2 \times \sin(\theta_1 + \theta_2)
 -->
 
 <img src="https://latex.codecogs.com/gif.latex?x_2&space;&space;=&space;&space;l_2&space;\cos(\theta_1&space;&plus;&space;\theta_2)"><br>
-<img src="https://latex.codecogs.com/gif.latex?x_2&space;&space;=&space;&space;l_2&space;\sin(\theta_1&space;&plus;&space;\theta_2)">
+<img src="https://latex.codecogs.com/gif.latex?y_2&space;&space;=&space;&space;l_2&space;\sin(\theta_1&space;&plus;&space;\theta_2)">
 
 であり、最終的に (x, y) は以下の式で表される。
 
@@ -192,7 +192,11 @@ $$
 <img src="https://latex.codecogs.com/gif.latex?\theta_1&space;=&space;\frac{\pi}{2}&space;-&space;\arccos\left(\frac{l_1^2&space;&plus;&space;l_d^2&space;-&space;l_2^2}{2l_1l_d}\right)&space;-&space;\arctan\frac{x}{y}"><br>
 <img src="https://latex.codecogs.com/gif.latex?\theta_2&space;=&space;\pi&space;-&space;\arccos\left(\frac{l_1^2&space;&plus;&space;l_2^2&space;-&space;l_d^2}{2l_1l_2}\right)">
 
-なお、この逆運動学にはもう一つの解があるので、いずれでも正解とします。
+なお、この逆運動学には以下のもう一つの解があります。
+
+<img src="https://latex.codecogs.com/gif.latex?\theta_1&space;=&space;\frac{\pi}{2}&space;+&space;\arccos\left(\frac{l_1^2&space;&plus;&space;l_d^2&space;-&space;l_2^2}{2l_1l_d}\right)&space;-&space;\arctan\frac{x}{y}"><br>
+<img src="https://latex.codecogs.com/gif.latex?\theta_2&space;=-&space;\pi&space;-&space;\arccos\left(\frac{l_1^2&space;&plus;&space;l_2^2&space;+&space;l_d^2}{2l_1l_2}\right)">
+
 
 
 ### 課題3. ロボット制御に必要な以下のプログラムを示せ（30点）
