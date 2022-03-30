@@ -256,19 +256,18 @@ paiza.ioはブラウザ上で様々なプログラミング言語を利用して
 import math
 
 def invkinem(link, pos):
-	l1 = link[0]
-	l2 = link[1]
-	x = pos[0]
-	y = pos[1]
-	ld = math.sqrt(x * x + y * y)
-	b = math.acos((l1 * l1 + l2 * l2 - ld * ld) / (2 * l1 * l2))
-	a = math.acos((l1 * l1 + ld * ld - l2 * l2) / (2 * l1 * ld))
-	phi = math.atan2(y, x)
-	th = [0] * 2
-	th[0] = - ((math.pi / 2) - a - phi)
-	th[1] = -(math.pi - b)
-
-	return th
+    l1 = link[0]
+    l2 = link[1]
+    x = pos[0]
+    y = pos[1]
+    ld = math.sqrt(x ** 2 + y ** 2)
+    b = math.acos((l1 ** 2 + l2 ** 2 - ld ** 2) / (2 * l1 * l2))
+    a = math.acos((l1 ** 2 + ld ** 2 - l2 ** 2) / (2 * l1 * ld))
+    phi = math.atan2(x, y)
+    th = [0] * 2
+    th[0] = (math.pi / 2) - a - phi
+    th[1] = math.pi - b
+    return th
 
 link = (1.0, 1.0)
 path = ((-1.0, 1.0), (-0.5, 1.0), (0.0, 1.0), (0.5, 1.0), (1.0,1.0))
@@ -280,18 +279,18 @@ for pos in path:
 import math
 
 def invkinem(link, pos):
-	l1 = link[0]
-	l2 = link[1]
-	x = pos[0]
-	y = pos[1]
-	ld = math.sqrt(x * x + y * y)
-	b = math.acos((l1 * l1 + l2 * l2 - ld * ld) / (2 * l1 * l2))
-	a = math.acos((l1 * l1 + ld * ld - l2 * l2) / (2 * l1 * ld))
-	phi = math.atan2(y, x)
-	th = [0] * 2
-	th[0] = - (math.pi / 2 + a - phi)
-	th[1] = math.pi - b
-	return th
+    l1 = link[0]
+    l2 = link[1]
+    x = pos[0]
+    y = pos[1]
+    ld = math.sqrt(x * x + y * y)
+    b = math.acos((l1 * l1 + l2 * l2 - ld * ld) / (2 * l1 * l2))
+    a = math.acos((l1 * l1 + ld * ld - l2 * l2) / (2 * l1 * ld))
+    phi = math.atan2(x, y)
+    th = [0] * 2
+    th[0] = math.pi / 2 + a - phi
+    th[1] = - math.pi + b
+    return th
   
 link = (1.0, 1.0)
 path = ((-1.0, 1.0), (-0.5, 1.0), (0.0, 1.0), (0.5, 1.0), (1.0,1.0))
@@ -302,7 +301,9 @@ for pos in path:
 以下の paiza.io 上のプログラムでは、以上の2通りのプログラムを実行し逆運動学を求めたうえで、順運動学で検算をしています。
 以下のURLにアクセスして試しに実行してみましょう。
 
-* [paiza.io上で実行](https://paiza.io/projects/mxUaGuuAqr2DLu-9vS7Rmg)
+* [paiza.io上で実行](https://paiza.io/projects/vdH54uDmeMUJlUO1J1DD-Q)
+
+<iframe src="https://paiza.io/projects/e/vdH54uDmeMUJlUO1J1DD-Q?theme=twilight" width="100%" height="500" scrolling="no" seamless="seamless"></iframe>
 
 
 ### 課題4.ミドルウエアを利用したサンプルプログラムを示せ
