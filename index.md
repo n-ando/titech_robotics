@@ -44,8 +44,9 @@ layout: default
 <img src="https://github.com/n-ando/titech_robotics/raw/master/figs/q0_fig1.png" align="right">
 
 右の2自由度アームの順運動学を求めよ。
+(関節角 (<img src="https://latex.codecogs.com/gif.latex?(\theta_1,&space;\theta_2)">) がわかっているときの、手先座標 (<img src="https://latex.codecogs.com/gif.latex?(x,&space;y)">) を求める。ただし、<img src="https://latex.codecogs.com/gif.latex?l_1,&space;l_2"> は既知であるとする。)
 
-
+ を求める。
 ### 解答1
 <br />
 <br />
