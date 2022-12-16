@@ -239,7 +239,7 @@ def invkinem(link, pos):
 link = (1.0, 1.0)
 path = ((-1.0, 1.0), (-0.5, 1.0), (0.0, 1.0), (0.5, 1.0), (1.0,1.0))
 for pos in path:
-  print invkinem(link, pos)
+  print(invkinem(link, pos))
 ```
 
 プログラミングには [paiza.io](https://paiza.io/ja/) の利用を推奨します。
