@@ -27,7 +27,8 @@ layout: default
 
 ## 1. 授業スライド
 
-<iframe src="https://www.slideshare.net/slideshow/embed_code/key/74ywXAP8EaUn8S?hostedIn=slideshare&page=upload" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/NoriakiAndo/230420pdf" title="東京工業大学「ロボット技術」ロボットミドルウェア" target="_blank">東京工業大学「ロボット技術」ロボットミドルウェア</a> </strong> from <strong><a href="https://www.slideshare.net/NoriakiAndo" target="_blank">NoriakiAndo</a></strong> </div>
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/74ywXAP8EaUn8S" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/NoriakiAndo/230420pdf" title="230420_東工大授業「ロボット技術」資料.pdf" target="_blank">230420_東工大授業「ロボット技術」資料.pdf</a> </strong> from <strong><a href="//www.slideshare.net/NoriakiAndo" target="_blank">NoriakiAndo</a></strong> </div>
+
 
 * [授業スライドPDF](230420_Titech_RobotTechnology_Middleware.pdf)
 
