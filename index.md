@@ -119,21 +119,21 @@ $$
 
 ### 2.4. 解答2
 
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
 <!--
-図中 <img src="https://latex.codecogs.com/gif.latex?\theta_1,&space;\theta_2"> は <img src="https://latex.codecogs.com/gif.latex?\alpha,&space;\beta,&space;\phi"> を用いて以下の式で表される。
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 -->
+
+図中 <img src="https://latex.codecogs.com/gif.latex?\theta_1,&space;\theta_2"> は <img src="https://latex.codecogs.com/gif.latex?\alpha,&space;\beta,&space;\phi"> を用いて以下の式で表される。
 
 <!-- 使用しない
 $$
@@ -144,12 +144,10 @@ $$
 $$
 -->
 
-<!--
 <img src="https://latex.codecogs.com/gif.latex?\theta_1&space;=&space;\frac{\pi}{2}&space;-&space;\alpha&space;-&space;\phi"><br>
 <img src="https://latex.codecogs.com/gif.latex?\theta_2&space;=&space;\pi&space;-&space;\beta">
 
 余弦定理と逆関数を使って、<img src="https://latex.codecogs.com/gif.latex?\cos\alpha,&space;\cos\beta,&space;\tan\phi"> の値を求めると、
--->
 
 <!-- 使用しない
 $$
@@ -161,13 +159,11 @@ $$
 $$
 -->
 
-<!--
 <img src="https://latex.codecogs.com/gif.latex?\cos\alpha&space;=&space;\left\(\frac{l_1^2&space;&plus;&space;l_d^2&space;-&space;l_2^2}{2l_1l_d}\right\)"><br>
 <img src="https://latex.codecogs.com/gif.latex?\cos\beta&space;=&space;\left\(\frac{l_1^2&space;&plus;&space;l_2^2&space;-&space;l_d^2}{2l_1l_2}\right\)"><br>
 <img src="https://latex.codecogs.com/gif.latex?\tan\phi&space;=&space;\frac{x}{y}">
 
 逆関数を用いて以下のように表すことができる。
--->
 
 <!-- 使用しない
 $$
@@ -179,13 +175,11 @@ $$
 $$
 -->
 
-<!--
 <img src="https://latex.codecogs.com/gif.latex?\alpha&space;=&space;\arccos\left\(\frac{l_1^2&space;&plus;&space;l_d^2&space;-&space;l_2^2}{2l_1l_d}\right\)"><br>
 <img src="https://latex.codecogs.com/gif.latex?\beta&space;=&space;\arccos\left\(\frac{l_1^2&space;&plus;&space;l_2^2&space;-&space;l_d^2}{2l_1l_2}\right\)"><br>
 <img src="https://latex.codecogs.com/gif.latex?\phi&space;=&space;\arctan\frac{x}{y}">
 
 以上より、求める角度は、
--->
 
 <!-- 使用しない
 $$
@@ -196,7 +190,6 @@ $$
 $$
 -->
 
-<!--
 <img src="https://latex.codecogs.com/gif.latex?\theta_1&space;=&space;\frac{\pi}{2}&space;-&space;\arccos\left(\frac{l_1^2&space;&plus;&space;l_d^2&space;-&space;l_2^2}{2l_1l_d}\right)&space;-&space;\arctan\frac{x}{y}"><br>
 <img src="https://latex.codecogs.com/gif.latex?\theta_2&space;=&space;\pi&space;-&space;\arccos\left(\frac{l_1^2&space;&plus;&space;l_2^2&space;-&space;l_d^2}{2l_1l_2}\right)">
 
@@ -204,7 +197,6 @@ $$
 
 <img src="https://latex.codecogs.com/gif.latex?\theta_1&space;=&space;\frac{\pi}{2}&space;+&space;\arccos\left(\frac{l_1^2&space;&plus;&space;l_d^2&space;-&space;l_2^2}{2l_1l_d}\right)&space;-&space;\arctan\frac{x}{y}"><br>
 <img src="https://latex.codecogs.com/gif.latex?\theta_2&space;=-&space;\pi&space;-&space;\arccos\left(\frac{l_1^2&space;&plus;&space;l_2^2&space;+&space;l_d^2}{2l_1l_2}\right)">
--->
 
 
 ### 2.5. 課題3. ロボット制御に必要な以下のプログラムを示せ（40点）
