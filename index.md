@@ -78,8 +78,8 @@ y_1 & = & l_1 \sin\theta_1
 $$
 -->
 
-<img src="https://latex.codecogs.com/gif.latex?x_1&space;=&space;l_1\cos\theta_1"><br>
-<img src="https://latex.codecogs.com/gif.latex?y_1&space;=&space;l_1\sin\theta_1">
+<img src="https://latex.codecogs.com/gif.latex?\200dpi x_1&space;=&space;l_1\cos\theta_1"><br>
+<img src="https://latex.codecogs.com/gif.latex?\200dpi y_1&space;=&space;l_1\sin\theta_1">
 
 点P1からみた点P2の座標 <img src="https://latex.codecogs.com/gif.latex?(x_2,&space;y_2)"> は、
 
@@ -175,7 +175,7 @@ $$
 $$
 -->
 
-<img src="https://latex.codecogs.com/gif.latex?\alpha&space;=&space;\arccos\left\(\frac{l_1^2&space;&plus;&space;l_d^2&space;-&space;l_2^2}{2l_1l_d}\right\)"><br>
+<img src="https://latex.codecogs.com/gif.latex?\200dpi \alpha&space;=&space;\arccos\left\(\frac{l_1^2&space;&plus;&space;l_d^2&space;-&space;l_2^2}{2l_1l_d}\right\)"><br>
 <img src="https://latex.codecogs.com/gif.latex?\beta&space;=&space;\arccos\left\(\frac{l_1^2&space;&plus;&space;l_2^2&space;-&space;l_d^2}{2l_1l_2}\right\)"><br>
 <img src="https://latex.codecogs.com/gif.latex?\phi&space;=&space;\arctan\frac{x}{y}">
 
