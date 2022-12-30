@@ -73,7 +73,7 @@ layout: default
 まず、点P1 <img src="https://latex.codecogs.com/gif.latex?(x_1,&space;y_1)">  の座標は、
 
 \begin{eqnarray}
-x_1 & = & l_1 \cos\theta_1 \\
+x_1 & = & l_1 \cos\theta_1 \\\\
 y_1 & = & l_1 \sin\theta_1
 \end{eqnarray}
 
