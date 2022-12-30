@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
+<script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax:{inlineMath:[['\$','\$'],['\\(','\\)']],processEscapes:true},CommonHTML: {matchFontHeight:false}});</script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
 
 <!-- ソースを見ようと思った君は賢いね！！でも、宿題は自力でやりましょう。-->
 
@@ -69,12 +72,10 @@ layout: default
 
 まず、点P1 <img src="https://latex.codecogs.com/gif.latex?(x_1,&space;y_1)">  の座標は、
 
-```math
 \begin{eqnarray}
 x_1 & = & l_1 \cos\theta_1 \\
 y_1 & = & l_1 \sin\theta_1
 \end{eqnarray}
-```
 
 <img src="https://latex.codecogs.com/gif.latex?\200dpix_1&space;=&space;l_1\cos\theta_1" height="20px"><br>
 <img src="https://latex.codecogs.com/gif.latex?\200dpiy_1&space;=&space;l_1\sin\theta_1" height="20px">
