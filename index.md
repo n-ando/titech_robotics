@@ -78,8 +78,8 @@ y_1 & = & l_1 \sin\theta_1
 $$
 -->
 
-<img src="https://latex.codecogs.com/gif.latex?\200dpix_1&space;=&space;l_1\cos\theta_1"><br>
-<img src="https://latex.codecogs.com/gif.latex?\200dpiy_1&space;=&space;l_1\sin\theta_1">
+<img src="https://latex.codecogs.com/gif.latex?\200dpix_1&space;=&space;l_1\cos\theta_1" height="20px"><br>
+<img src="https://latex.codecogs.com/gif.latex?\200dpiy_1&space;=&space;l_1\sin\theta_1" height="20px">
 
 点P1からみた点P2の座標 <img src="https://latex.codecogs.com/gif.latex?(x_2,&space;y_2)"> は、
 
