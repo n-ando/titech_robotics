@@ -48,9 +48,7 @@ layout: default
 <img src="https://github.com/n-ando/titech_robotics/raw/master/figs/q0_fig1.png" align="right" width="320">
 
 右の2自由度アームの順運動学を求めよ。
-(関節角 <img src="https://latex.codecogs.com/gif.latex?(\theta_1,&space;\theta_2)"> がわかっているときの、手先座標 <img src="https://latex.codecogs.com/gif.latex?(x,&space;y)"> を求める。ただし、<img src="https://latex.codecogs.com/gif.latex?l_1,&space;l_2"> は既知であるとする。)
-
- を求める。
+(関節角 $(\theta_1,&space;\theta_2)$ がわかっているときの、手先座標 $(x, y)$ を求める。ただし、$l_1, l_2$ は既知であるとする。)
 
 ### 2.2. 解答1
 
@@ -68,9 +66,9 @@ layout: default
 <br />
 -->
 
-点P2 <img src="https://latex.codecogs.com/gif.latex?(x,&space;y)"> の の値を <img src="https://latex.codecogs.com/gif.latex?l_1,&space;l_2,&space;\theta_1,&space;\theta_2"> で表す。
+点P2 $(x, y)$ の値を $l_1, l_2, \theta_1, \theta_2$ で表す。
 
-まず、点P1 <img src="https://latex.codecogs.com/gif.latex?(x_1,&space;y_1)">  の座標は、
+まず、点P1 $(x_1, y_1)$  の座標は、
 
 \begin{eqnarray}
 x_1 & = & l_1 \cos\theta_1 \\\\
