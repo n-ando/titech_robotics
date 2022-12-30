@@ -69,14 +69,12 @@ layout: default
 
 まず、点P1 <img src="https://latex.codecogs.com/gif.latex?(x_1,&space;y_1)">  の座標は、
 
-<!-- 使用しない
-$$
+```math
 \begin{eqnarray}
 x_1 & = & l_1 \cos\theta_1 \\
 y_1 & = & l_1 \sin\theta_1
 \end{eqnarray}
-$$
--->
+```
 
 <img src="https://latex.codecogs.com/gif.latex?\200dpix_1&space;=&space;l_1\cos\theta_1" height="20px"><br>
 <img src="https://latex.codecogs.com/gif.latex?\200dpiy_1&space;=&space;l_1\sin\theta_1" height="20px">
