@@ -145,33 +145,33 @@ y = l_1\sin\theta_1 + l_2\sin(\theta_1 + \theta_2)
 余弦定理と逆関数を使って、 $\cos\alpha, \cos\beta, \tan\phi $ の値を求めると、
 
 \begin{eqnarray}
-\cos\alpha = \left\(\frac{l_1^2 + l_d^2 - l_2^2}{2l_1l_d}\right\) \\\\  
-\cos\beta  = \left\(\frac{l_1^2 + l_2^2 - l_d^2}{2l_1l_2}\right\) \\\\  
-\tan\phi   = \frac{x}{y}
+\cos\alpha & = & \left\(\frac{l_1^2 + l_d^2 - l_2^2}{2l_1l_d}\right\) \\\\  
+\cos\beta  & = & \left\(\frac{l_1^2 + l_2^2 - l_d^2}{2l_1l_2}\right\) \\\\  
+\tan\phi   & = & \frac{x}{y}
 \end{eqnarray}
 
 逆関数を用いて以下のように表すことができる。
 
 \begin{eqnarray}
-\alpha = \arccos\left\(\frac{l_1^2 + l_d^2 - l_2^2}{2l_1l_d}\right\) \\\\  
-\beta  = \arccos\left\(\frac{l_1^2 + l_2^2 - l_d^2}{2l_1l_2}\right\) \\\\  
-\phi   = \arctan\frac{x}{y} 座標軸のとり方に注意
+\alpha & = & \arccos\left\(\frac{l_1^2 + l_d^2 - l_2^2}{2l_1l_d}\right\) \\\\  
+\beta  & = & \arccos\left\(\frac{l_1^2 + l_2^2 - l_d^2}{2l_1l_2}\right\) \\\\  
+\phi   & = & \arctan\frac{x}{y}        座標軸のとり方に注意
 \end{eqnarray}
 
 
 以上より、求める角度は、
 
 \begin{eqnarray}
-\theta_1 = \frac{\pi}{2} - \arccos\left(\frac{l_1^2 + l_d^2 - l_2^2}{2l_1l_d}\right) - \arctan\frac{x}{y}
-\theta_2 = \pi - \arccos\left(\frac{l_1^2 + l_2^2 - l_d^2}{2l_1l_2}\right)
+\theta_1 & = & \frac{\pi}{2} - \arccos\left(\frac{l_1^2 + l_d^2 - l_2^2}{2l_1l_d}\right) - \arctan\frac{x}{y} \\\\  
+\theta_2 & = & \pi - \arccos\left(\frac{l_1^2 + l_2^2 - l_d^2}{2l_1l_2}\right)
 \end{eqnarray}
 
 なお、この逆運動学には以下のもう一つの解があります。
 
 \begin{eqnarray}
-\theta_1 = \frac{\pi}{2} + \arccos\left(\frac{l_1^2 + l_d^2 - l_2^2}
+\theta_1 & = & \frac{\pi}{2} + \arccos\left(\frac{l_1^2 + l_d^2 - l_2^2}
 {2l_1l_d}\right) - \arctan\frac{x}{y} \\\\  
-\theta_2 =- \pi - \arccos\left(\frac{l_1^2 + l_2^2 + l_d^2}{2l_1l_2}\right) 
+\theta_2 & = & -\pi - \arccos\left(\frac{l_1^2 + l_2^2 + l_d^2}{2l_1l_2}\right) 
 \end{eqnarray}
 
 
