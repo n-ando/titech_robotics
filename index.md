@@ -281,25 +281,14 @@ for pos in path:
 
 * [paiza.io上で実行](https://paiza.io/projects/vdH54uDmeMUJlUO1J1DD-Q)
 
-<iframe src="https://paiza.io/projects/e/vdH54uDmeMUJlUO1J1DD-Q?theme=twilight" width="100%" height="500" scrolling="no" seamless="seamless"></iframe>
-
 また、[python/invkinem.py](python/invkinem.py) ([paiza.io上で表示](https://paiza.io/projects/zDnVK5TveR6IpNVgpJOnkA)) では matplotlib を使用して、アームのリンクの状態を以下のように表示させることができます。(paiza.io上ではmatplotlibによるグラフ表示はできません。ローカルにダウンロードして、matplotlibでグラフ表示できる環境で実行してください。)
 
 <a href="https://github.com/n-ando/titech_robotics/raw/master/python/results.png"><img src="https://github.com/n-ando/titech_robotics/raw/master/python/results.png" align="center" width="820"></a>
 
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+
+
 
 <!--
 ### 2.7. 課題4.ミドルウエアを利用したサンプルプログラムを示せ
