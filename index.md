@@ -53,6 +53,9 @@ layout: default
 <br />
 <br />
 <br />
+<br />
+<br />
+<br />
 
 ### 2.2. 解答1
 
@@ -111,6 +114,10 @@ y = l_1\sin\theta_1 + l_2\sin(\theta_1 + \theta_2)
 <br />
 <br />
 <br />
+<br />
+<br />
+
+
 
 ### 2.4. 解答2
 
