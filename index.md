@@ -102,10 +102,15 @@ y = l_1\sin\theta_1 + l_2\sin(\theta_1 + \theta_2)
 
 <img src="https://github.com/n-ando/titech_robotics/raw/master/figs/q0_fig2.png" align="right" width="320">
 
-右のアームの逆運動学 (<img src="https://latex.codecogs.com/gif.latex?(x,&space;y)"> が与えられたとき、<img src="https://latex.codecogs.com/gif.latex?l_1,&space;l_2"> を用いて
-<img src="https://latex.codecogs.com/gif.latex?(\theta_1,&space;\theta_2)"> を求める。) を求めよ。
+右のアームの逆運動学 ($(x, y) $ が与えられたとき、 $l_1, l_2 $ を用いて
+ $(\theta_1, \theta_2) $ を求める。) を求めよ。
 
 なお、解は2つあるので、基本的には右図実線の方の解を求めることとする。
+
+<br />
+<br />
+<br />
+<br />
 
 ### 2.4. 解答2
 
@@ -123,70 +128,44 @@ y = l_1\sin\theta_1 + l_2\sin(\theta_1 + \theta_2)
 <br />
 -->
 
-図中 <img src="https://latex.codecogs.com/gif.latex?\theta_1,&space;\theta_2"> は <img src="https://latex.codecogs.com/gif.latex?\alpha,&space;\beta,&space;\phi"> を用いて以下の式で表される。
+図中  $\theta_1, \theta_2 $ は  $\alpha, \beta, \phi $ を用いて以下の式で表される。
 
-<!-- 使用しない
-$$
 \begin{eqnarray}
-\theta_1 & = & \frac{\pi}{2} - \alpha - \phi \\
+\theta_1 & = & \frac{\pi}{2} - \alpha - \phi \\\\  
 \theta_2 & = & \pi - \beta
 \end{eqnarray}
-$$
--->
 
-<img src="https://latex.codecogs.com/gif.latex?\theta_1&space;=&space;\frac{\pi}{2}&space;-&space;\alpha&space;-&space;\phi"><br>
-<img src="https://latex.codecogs.com/gif.latex?\theta_2&space;=&space;\pi&space;-&space;\beta">
+余弦定理と逆関数を使って、 $\cos\alpha, \cos\beta, \tan\phi $ の値を求めると、
 
-余弦定理と逆関数を使って、<img src="https://latex.codecogs.com/gif.latex?\cos\alpha,&space;\cos\beta,&space;\tan\phi"> の値を求めると、
-
-<!-- 使用しない
-$$
 \begin{eqnarray}
-\cos\alpha = \left\(\frac{l_1^2 + l_d^2 - l_2^2}{2l_1l_d}\right\) \\
-\cos\beta  = \left\(\frac{l_1^2 + l_2^2 - l_d^2}{2l_1l_2}\right\) \\
+\cos\alpha = \left\(\frac{l_1^2 + l_d^2 - l_2^2}{2l_1l_d}\right\) \\\\  
+\cos\beta  = \left\(\frac{l_1^2 + l_2^2 - l_d^2}{2l_1l_2}\right\) \\\\  
 \tan\phi   = \frac{x}{y}
 \end{eqnarray}
-$$
--->
-
-<img src="https://latex.codecogs.com/gif.latex?\cos\alpha&space;=&space;\left\(\frac{l_1^2&space;&plus;&space;l_d^2&space;-&space;l_2^2}{2l_1l_d}\right\)"><br>
-<img src="https://latex.codecogs.com/gif.latex?\cos\beta&space;=&space;\left\(\frac{l_1^2&space;&plus;&space;l_2^2&space;-&space;l_d^2}{2l_1l_2}\right\)"><br>
-<img src="https://latex.codecogs.com/gif.latex?\tan\phi&space;=&space;\frac{x}{y}">
 
 逆関数を用いて以下のように表すことができる。
 
-<!-- 使用しない
-$$
 \begin{eqnarray}
-\alpha = \arccos\left\(\frac{l_1^2 + l_d^2 - l_2^2}{2l_1l_d}\right\) \\
-\beta  = \arccos\left\(\frac{l_1^2 + l_2^2 - l_d^2}{2l_1l_2}\right\) \\
+\alpha = \arccos\left\(\frac{l_1^2 + l_d^2 - l_2^2}{2l_1l_d}\right\) \\\\  
+\beta  = \arccos\left\(\frac{l_1^2 + l_2^2 - l_d^2}{2l_1l_2}\right\) \\\\  
 \phi   = \arctan\frac{x}{y} 座標軸のとり方に注意
 \end{eqnarray}
-$$
--->
 
-<img src="https://latex.codecogs.com/gif.latex?\200dpi \alpha&space;=&space;\arccos\left\(\frac{l_1^2&space;&plus;&space;l_d^2&space;-&space;l_2^2}{2l_1l_d}\right\)"><br>
-<img src="https://latex.codecogs.com/gif.latex?\beta&space;=&space;\arccos\left\(\frac{l_1^2&space;&plus;&space;l_2^2&space;-&space;l_d^2}{2l_1l_2}\right\)"><br>
-<img src="https://latex.codecogs.com/gif.latex?\phi&space;=&space;\arctan\frac{x}{y}">
 
 以上より、求める角度は、
 
-<!-- 使用しない
-$$
 \begin{eqnarray}
 \theta_1 = \frac{\pi}{2} - \arccos\left(\frac{l_1^2 + l_d^2 - l_2^2}{2l_1l_d}\right) - \arctan\frac{x}{y}
 \theta_2 = \pi - \arccos\left(\frac{l_1^2 + l_2^2 - l_d^2}{2l_1l_2}\right)
 \end{eqnarray}
-$$
--->
-
-<img src="https://latex.codecogs.com/gif.latex?\theta_1&space;=&space;\frac{\pi}{2}&space;-&space;\arccos\left(\frac{l_1^2&space;&plus;&space;l_d^2&space;-&space;l_2^2}{2l_1l_d}\right)&space;-&space;\arctan\frac{x}{y}"><br>
-<img src="https://latex.codecogs.com/gif.latex?\theta_2&space;=&space;\pi&space;-&space;\arccos\left(\frac{l_1^2&space;&plus;&space;l_2^2&space;-&space;l_d^2}{2l_1l_2}\right)">
 
 なお、この逆運動学には以下のもう一つの解があります。
 
-<img src="https://latex.codecogs.com/gif.latex?\theta_1&space;=&space;\frac{\pi}{2}&space;+&space;\arccos\left(\frac{l_1^2&space;&plus;&space;l_d^2&space;-&space;l_2^2}{2l_1l_d}\right)&space;-&space;\arctan\frac{x}{y}"><br>
-<img src="https://latex.codecogs.com/gif.latex?\theta_2&space;=-&space;\pi&space;-&space;\arccos\left(\frac{l_1^2&space;&plus;&space;l_2^2&space;+&space;l_d^2}{2l_1l_2}\right)">
+\begin{eqnarray}
+\theta_1 = \frac{\pi}{2} + \arccos\left(\frac{l_1^2 + l_d^2 - l_2^2}
+{2l_1l_d}\right) - \arctan\frac{x}{y} \\\\  
+\theta_2 =- \pi - \arccos\left(\frac{l_1^2 + l_2^2 + l_d^2}{2l_1l_2}\right) 
+\end{eqnarray}
 
 
 ### 2.5. 課題3. ロボット制御に必要な以下のプログラムを示せ（40点）
