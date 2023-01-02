@@ -171,7 +171,7 @@ y = l_1\sin\theta_1 + l_2\sin(\theta_1 + \theta_2)
 \begin{eqnarray}
 \theta_1 & = & \frac{\pi}{2} + \arccos\left(\frac{l_1^2 + l_d^2 - l_2^2}
 {2l_1l_d}\right) - \arctan\frac{x}{y} \\\\  
-\theta_2 & = & -\pi - \arccos\left(\frac{l_1^2 + l_2^2 + l_d^2}{2l_1l_2}\right) 
+\theta_2 & = & -\pi + \arccos\left(\frac{l_1^2 + l_2^2 + l_d^2}{2l_1l_2}\right) 
 \end{eqnarray}
 
 
