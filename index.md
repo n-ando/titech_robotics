@@ -23,11 +23,7 @@ layout: default
     - [2.4. 解答2](#24-%E8%A7%A3%E7%AD%942)
     - [2.5. 課題3. ロボット制御に必要な以下のプログラムを示せ（40点）](#25-%E8%AA%B2%E9%A1%8C3-%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%88%B6%E5%BE%A1%E3%81%AB%E5%BF%85%E8%A6%81%E3%81%AA%E4%BB%A5%E4%B8%8B%E3%81%AE%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0%E3%82%92%E7%A4%BA%E3%81%9B40%E7%82%B9)
     - [2.6. 解答3](#26-%E8%A7%A3%E7%AD%943)
-        - [2.6.1. a ロボットミドルウエアを一つ選び、データの送信を行う手順・方法を調べ説明せよ（15点）](#261-a-%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E3%83%9F%E3%83%89%E3%83%AB%E3%82%A6%E3%82%A8%E3%82%A2%E3%82%92%E4%B8%80%E3%81%A4%E9%81%B8%E3%81%B3%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E9%80%81%E4%BF%A1%E3%82%92%E8%A1%8C%E3%81%86%E6%89%8B%E9%A0%86%E3%83%BB%E6%96%B9%E6%B3%95%E3%82%92%E8%AA%BF%E3%81%B9%E8%AA%AC%E6%98%8E%E3%81%9B%E3%82%8815%E7%82%B9)
-        - [2.6.2. b 同様に、データの受信を行う手順・方法を調べ説明せよ（15点）](#262-b-%E5%90%8C%E6%A7%98%E3%81%AB%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E5%8F%97%E4%BF%A1%E3%82%92%E8%A1%8C%E3%81%86%E6%89%8B%E9%A0%86%E3%83%BB%E6%96%B9%E6%B3%95%E3%82%92%E8%AA%BF%E3%81%B9%E8%AA%AC%E6%98%8E%E3%81%9B%E3%82%8815%E7%82%B9)
-    - [2.7. 解答4](#27-%E8%A7%A3%E7%AD%944)
-        - [2.7.1. a データの送信を行う手順・方法](#271-a-%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E9%80%81%E4%BF%A1%E3%82%92%E8%A1%8C%E3%81%86%E6%89%8B%E9%A0%86%E3%83%BB%E6%96%B9%E6%B3%95)
-    - [2.8. 授業の感想（20点）](#28-%E6%8E%88%E6%A5%AD%E3%81%AE%E6%84%9F%E6%83%B320%E7%82%B9)
+    - [2.7. 授業の感想（20点）](#27-%E6%8E%88%E6%A5%AD%E3%81%AE%E6%84%9F%E6%83%B320%E7%82%B9)
 - [3. 問い合わせ](#3-%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B)
 
 <!-- /TOC -->
@@ -232,7 +228,7 @@ paiza.ioはブラウザ上で様々なプログラミング言語を利用して
 逆運動学は2つの解があり、以下の二通りのプログラムが正解となります。
 -->
 
-逆運動学は2つの解があり、以下の二通りのプログラムが正解とします。
+逆運動学は2つの解があり、以下の二通りのプログラムを正解とします。
 
 ```python
 import math
@@ -287,9 +283,13 @@ for pos in path:
 
 <iframe src="https://paiza.io/projects/e/vdH54uDmeMUJlUO1J1DD-Q?theme=twilight" width="100%" height="500" scrolling="no" seamless="seamless"></iframe>
 
-また、[python/invkinem.py](python/invkinem.py) ([paizaio上で表示](https://paiza.io/projects/zDnVK5TveR6IpNVgpJOnkA) では matplotlib を使用して、アームのリンクの状態を以下のように表示させることができます。
+また、[python/invkinem.py](python/invkinem.py) ([paizaio上で表示](https://paiza.io/projects/zDnVK5TveR6IpNVgpJOnkA)) では matplotlib を使用して、アームのリンクの状態を以下のように表示させることができます。
 
-<img src="https://github.com/n-ando/titech_robotics/raw/master/python/results.png" align="right" width="800">
+<a href="https://github.com/n-ando/titech_robotics/raw/master/python/results.png"><img src="https://github.com/n-ando/titech_robotics/raw/master/python/results.png" align="right" width="800"></a>
+
+<br/>
+<br/>
+<br/>
 
 <!--
 ### 2.7. 課題4.ミドルウエアを利用したサンプルプログラムを示せ
