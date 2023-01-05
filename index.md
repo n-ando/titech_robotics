@@ -285,8 +285,12 @@ for pos in path:
 
 また、[python/invkinem.py](python/invkinem.py) ([paiza.io上で表示](https://paiza.io/projects/zDnVK5TveR6IpNVgpJOnkA)) では matplotlib を使用して、アームのリンクの状態を以下のように表示させることができます。(paiza.io上ではmatplotlibによるグラフ表示はできません。ローカルにダウンロードして、matplotlibでグラフ表示できる環境で実行してください。)
 
-<a href="https://github.com/n-ando/titech_robotics/raw/master/python/results.png"><img src="https://github.com/n-ando/titech_robotics/raw/master/python/results.png" align="right" width="800"></a>
+<a href="https://github.com/n-ando/titech_robotics/raw/master/python/results.png"><img src="https://github.com/n-ando/titech_robotics/raw/master/python/results.png" align="center" width="820"></a>
 
+<br/>
+<br/>
+<br/>
+<br/>
 <br/>
 <br/>
 <br/>
