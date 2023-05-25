@@ -7,9 +7,9 @@ layout: default
 
 <!-- ソースを見ようと思った君は賢いね！！でも、宿題は自力でやりましょう。-->
 
-# 「ロボットミドルウェア(2023年4月20日)」
+# 「ロボットミドルウェア(2024年4月11日)」
 
-2023年4月20日実施の「ロボットミドルウェア」の授業資料および宿題、参考リンクを掲載しています。
+2024年4月11日実施の「ロボットミドルウェア」の授業資料および宿題、参考リンクを掲載しています。
 
 **目次**
 
@@ -33,7 +33,7 @@ layout: default
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/74ywXAP8EaUn8S" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/NoriakiAndo/230420pdf" title="230420_東工大授業「ロボット技術」資料.pdf" target="_blank">230420_東工大授業「ロボット技術」資料.pdf</a> </strong> from <strong><a href="//www.slideshare.net/NoriakiAndo" target="_blank">NoriakiAndo</a></strong> </div>
 
 
-* [授業スライドPDF](230420_Titech_RobotTechnology_Middleware.pdf)
+* [授業スライドPDF](240411_Titech_RobotTechnology_Middleware.pdf)
 
 ## 2. レポート課題
 
@@ -59,20 +59,20 @@ layout: default
 
 ### 2.2. 解答1
 
-<!--
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
--->
 
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+<!--
 点P2 $(x, y)$ の値を $l_1, l_2, \theta_1, \theta_2$ で表す。
 
 まず、点P1 $(x_1, y_1)$  の座標は、
@@ -97,7 +97,7 @@ y_2 & = & l_2 \times \sin(\theta_1 + \theta_2)
 x = l_1\cos\theta_1 + l_2\cos(\theta_1 + \theta_2) \\\\  
 y = l_1\sin\theta_1 + l_2\sin(\theta_1 + \theta_2)
 \end{eqnarray}
-
+-->
 
 
 
@@ -121,20 +121,20 @@ y = l_1\sin\theta_1 + l_2\sin(\theta_1 + \theta_2)
 
 ### 2.4. 解答2
 
-<!--
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
--->
 
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+<!--
 図中  $\theta_1, \theta_2 $ は  $\alpha, \beta, \phi $ を用いて以下の式で表される。
 
 \begin{eqnarray}
@@ -173,7 +173,7 @@ y = l_1\sin\theta_1 + l_2\sin(\theta_1 + \theta_2)
 {2l_1l_d}\right) - \arctan\frac{x}{y} \\\\  
 \theta_2 & = & -\pi + \arccos\left(\frac{l_1^2 + l_2^2 + l_d^2}{2l_1l_2}\right) 
 \end{eqnarray}
-
+-->
 
 ### 2.5. 課題3. ロボット制御に必要な以下のプログラムを示せ（40点）
 2自由度のアームの逆運動学を計算する以下の仕様の関数のPythonプログラムを作成し、次のプログラムを完成させ、実行結果を示せ。　
@@ -212,7 +212,7 @@ paiza.ioはブラウザ上で様々なプログラミング言語を利用して
 
 ### 2.6. 解答3
 
-<!--
+
 <br />
 <br />
 <br />
@@ -226,8 +226,8 @@ paiza.ioはブラウザ上で様々なプログラミング言語を利用して
 <br />
 
 逆運動学は2つの解があり、以下の二通りのプログラムが正解となります。
--->
 
+<!--
 逆運動学は2つの解があり、以下の二通りのプログラムを正解とします。
 
 ```python
@@ -287,7 +287,7 @@ for pos in path:
 
 <br/>
 <br/>
-
+-->
 
 
 <!--
