@@ -124,6 +124,7 @@ y = l_1\sin\theta_1 + l_2\sin(\theta_1 + \theta_2)
 
 
 <br />
+
 <br />
 <br />
 <br />
