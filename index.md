@@ -210,6 +210,19 @@ paiza.ioはブラウザ上で様々なプログラミング言語を利用して
 
 * [paiza.io](https://paiza.io/ja/) 
 
+#### 参考
+
+Pythonで数学関数を表記する方法
+
+```python
+- ルート √     : math.sqrt()
+- 累乗 x^n     : x ** n (ex. x^2 → x ** 2)
+- 逆正接 arctan: math.atan2(x, y) = arctan(x/y)
+- 逆余弦 arccos: math.acos(x)
+- 円周率       : math.pi
+```
+
+
 ### 2.6. 解答3
 
 
