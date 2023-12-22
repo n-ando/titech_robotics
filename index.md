@@ -121,6 +121,8 @@ $$
 右のアームの逆運動学 (<img src="https://latex.codecogs.com/gif.latex?(x,&space;y)"> が与えられたとき、<img src="https://latex.codecogs.com/gif.latex?l_1,&space;l_2"> を用いて
 <img src="https://latex.codecogs.com/gif.latex?(\theta_1,&space;\theta_2)"> を求める。) を求めよ。
 
+なお、解は2つあるので、基本的には右図実線の方の解を求めることとする。
+
 ### 2.4. 解答2
 
 <br />
