@@ -121,8 +121,6 @@ $$
 右のアームの逆運動学 (<img src="https://latex.codecogs.com/gif.latex?(x,&space;y)"> が与えられたとき、<img src="https://latex.codecogs.com/gif.latex?l_1,&space;l_2"> を用いて
 <img src="https://latex.codecogs.com/gif.latex?(\theta_1,&space;\theta_2)"> を求める。) を求めよ。
 
-※講義資料はx軸とy軸が逆になっていましたが回答に影響ある場合は考慮します。
-
 ### 2.4. 解答2
 
 <br />
@@ -241,7 +239,7 @@ for pos in path:
   print invkinem(link, pos)
 ```
 
-プログラミングには [paiza.io](https://paiza.io/ja/) を利用してもよい。
+プログラミングには [paiza.io](https://paiza.io/ja/) の利用を推奨します。
 paiza.ioはブラウザ上で様々なプログラミング言語を利用してプログラムの記述・実行ができるサイトです。
 アカウント登録をすると、作成したプログラムを保存することもできます。
 レポートに保存したプログラムのURLを張り付けて提出することを推奨します。
