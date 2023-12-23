@@ -29,7 +29,7 @@ layout: default
 
 <iframe src="https://www.slideshare.net/slideshow/embed_code/key/74ywXAP8EaUn8S?hostedIn=slideshare&page=upload" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/NoriakiAndo/230420pdf" title="東京工業大学「ロボット技術」ロボットミドルウェア" target="_blank">東京工業大学「ロボット技術」ロボットミドルウェア</a> </strong> from <strong><a href="https://www.slideshare.net/NoriakiAndo" target="_blank">NoriakiAndo</a></strong> </div>
 
-* [授業スライドPDF](220526_Titech_RobotTechnology_Middleware.pdf)
+* [授業スライドPDF](230420_Titech_RobotTechnology_Middleware.pdf)
 
 ## 2. レポート課題
 
