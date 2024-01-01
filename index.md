@@ -59,20 +59,20 @@ layout: default
 
 ### 2.2. 解答1
 
-
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
 <!--
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+-->
+
 点P2 $(x, y)$ の値を $l_1, l_2, \theta_1, \theta_2$ で表す。
 
 まず、点P1 $(x_1, y_1)$  の座標は、
@@ -97,7 +97,7 @@ y_2 & = & l_2 \times \sin(\theta_1 + \theta_2)
 x = l_1\cos\theta_1 + l_2\cos(\theta_1 + \theta_2) \\\\  
 y = l_1\sin\theta_1 + l_2\sin(\theta_1 + \theta_2)
 \end{eqnarray}
--->
+
 
 
 
@@ -121,21 +121,21 @@ y = l_1\sin\theta_1 + l_2\sin(\theta_1 + \theta_2)
 
 ### 2.4. 解答2
 
-
-<br />
-
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
 <!--
+<br />
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+-->
+
 図中  $\theta_1, \theta_2 $ は  $\alpha, \beta, \phi $ を用いて以下の式で表される。
 
 \begin{eqnarray}
@@ -174,7 +174,7 @@ y = l_1\sin\theta_1 + l_2\sin(\theta_1 + \theta_2)
 {2l_1l_d}\right) - \arctan\frac{x}{y} \\\\  
 \theta_2 & = & -\pi + \arccos\left(\frac{l_1^2 + l_2^2 + l_d^2}{2l_1l_2}\right) 
 \end{eqnarray}
--->
+
 
 ### 2.5. 課題3. ロボット制御に必要な以下のプログラムを示せ（40点）
 2自由度のアームの逆運動学を計算する以下の仕様の関数のPythonプログラムを作成し、次のプログラムを完成させ、実行結果を示せ。　
@@ -226,20 +226,20 @@ Pythonで数学関数を表記する方法は以下の通り。上記プログ�
 
 ### 2.6. 解答3
 
-
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
 <!--
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+-->
+
 逆運動学は2つの解があり、以下の二通りのプログラムが正解となります。
 
 
@@ -302,7 +302,7 @@ for pos in path:
 
 <br/>
 <br/>
--->
+
 
 
 <!--
